@@ -1,0 +1,5 @@
+profil,model,Success@1,Success@3,MRR
+publikasi,TF-IDF,0.733,0.867,0.808
+publikasi,BM25,0.733,0.867,0.808
+gabungan,TF-IDF,0.767,0.967,0.857
+gabungan,BM25,0.767,0.933,0.859

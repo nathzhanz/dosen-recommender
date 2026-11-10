@@ -1,0 +1,35 @@
+[
+  {
+    "model": "TF-IDF",
+    "query": "Prediksi nilai akademik mahasiswa menggunakan xgboost",
+    "benar": "D06",
+    "top3": [
+      "D01",
+      "D08",
+      "D02"
+    ],
+    "gagal_top3": true
+  },
+  {
+    "model": "BM25",
+    "query": "Analisis otomasi deployment aplikasi akademik berbasis continuous integration",
+    "benar": "D04",
+    "top3": [
+      "D02",
+      "D01",
+      "D03"
+    ],
+    "gagal_top3": true
+  },
+  {
+    "model": "BM25",
+    "query": "Prediksi nilai akademik mahasiswa menggunakan xgboost",
+    "benar": "D06",
+    "top3": [
+      "D01",
+      "D08",
+      "D02"
+    ],
+    "gagal_top3": true
+  }
+]

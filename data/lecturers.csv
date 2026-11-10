@@ -1,0 +1,12 @@
+id,nama,bidang,kuota
+D01,Dosen A,Data Mining,12
+D02,Dosen B,Rekayasa Perangkat Lunak,12
+D03,Dosen C,Internet of Things,16
+D04,Dosen D,Interaksi Manusia dan Komputer,14
+D05,Dosen E,Keamanan Informasi,14
+D06,Dosen F,Pemrosesan Bahasa Alami,14
+D07,Dosen G,Visi Komputer,12
+D08,Dosen H,Basis Data dan Data Engineering,12
+D09,Dosen I,Sistem Informasi dan Tata Kelola TI,18
+D10,Dosen J,Sistem Rekomendasi,12
+D11,Dosen K,Komputasi Awan dan Jaringan,12

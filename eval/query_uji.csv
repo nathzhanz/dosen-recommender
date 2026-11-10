@@ -1,0 +1,31 @@
+thesis_id,judul,lecturer_id
+S006,Rancang bangun sistem klasterisasi pada ulasan aplikasi dengan naive bayes,D01
+S015,Penerapan unified modeling language untuk arsitektur microservice pada sistem informasi perpustakaan,D02
+S031,Pemantauan lingkungan kandang ternak menggunakan lora,D03
+S039,Perbandingan design thinking dalam desain antarmuka pengguna aplikasi lansia,D04
+S050,Penerapan penetration testing untuk analisis kerentanan pada aplikasi web,D05
+S062,Analisis ekstraksi entitas karya ilmiah berbasis bm25,D06
+S080,Analisis klasifikasi citra citra medis berbasis convolutional neural network,D07
+S098,Rancang bangun sistem perancangan data warehouse pada data sensus dengan mongodb,D08
+S100,Optimasi query data sensus menggunakan dimensional modeling,D09
+S119,Perbandingan association rule dalam rekomendasi produk destinasi wisata,D10
+S129,Rancang bangun sistem load balancing pada jaringan nirkabel dengan kubernetes,D11
+S002,Analisis sentimen transaksi keuangan menggunakan k-means,D01
+S020,Kualitas kode aplikasi akademik menggunakan clean architecture,D02
+S032,Penerapan mqtt untuk irigasi cerdas pada kualitas udara,D03
+S041,Rancang bangun sistem pengalaman pengguna pada portal kampus dengan heuristic evaluation,D04
+S053,Analisis enkripsi data transaksi digital berbasis firewall,D05
+S060,Analisis klasifikasi teks karya ilmiah berbasis long short term memory,D06
+S084,Penerapan mobilenet untuk pengenalan tulisan tangan pada citra medis,D07
+S095,Penerapan apache spark untuk pipeline etl pada data kesehatan,D08
+S101,Transformasi digital instansi pemerintah menggunakan enterprise architecture,D09
+S127,Rancang bangun sistem klasifikasi teks pada berita daring dengan tf idf,D10
+S139,Penerapan firewall untuk manajemen risiko pada data pribadi,D11
+S003,Rancang bangun sistem prediksi pada ulasan aplikasi dengan xgboost,D01
+S017,Rancang bangun sistem kualitas kode pada aplikasi akademik dengan agile scrum,D02
+S037,Penerapan kubernetes untuk virtualisasi server pada aplikasi streaming,D03
+S040,Analisis otomasi deployment aplikasi akademik berbasis continuous integration,D04
+S057,Rancang bangun sistem audit keamanan pada data pribadi dengan iso 27001,D05
+S059,Prediksi nilai akademik mahasiswa menggunakan xgboost,D06
+S078,Analisis segmentasi citra penyakit daun berbasis convolutional neural network,D07
+S089,Perbandingan postgresql dalam tata kelola data data akademik,D08
