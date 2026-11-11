@@ -3,12 +3,14 @@ Jalankan: streamlit run app.py
 """
 import streamlit as st
 
-from src.recommender import Recommender, load_data
+from src.recommender import Recommender, load_data, using_sample_data
 
 st.set_page_config(page_title="Rekomendasi Dosen Pembimbing", layout="wide")
 st.title("Rekomendasi Calon Dosen Pembimbing")
-st.caption("Temu Kembali Informasi - Prodi Sistem dan Teknologi Informasi, UNJ. "
-           "Data contoh bersifat sintetis; ganti dengan data publik asli.")
+st.caption("Temu Kembali Informasi - Prodi Sistem dan Teknologi Informasi, UNJ.")
+if using_sample_data():
+    st.warning("Memakai DATA CONTOH SINTETIS (Dosen A-K). Letakkan data asli di folder data/ "
+               "(lecturers.csv, publications.csv, theses.csv) agar sistem memakainya.")
 
 
 @st.cache_resource

@@ -1,0 +1,38 @@
+PEMBIMBING DAN JUMLAH PUBLIKASI (SINTA)
+                             key                             nama  skripsi  publikasi  dipakai
+      muchammad ficky duskarnaen       Muchammad Ficky Duskarnaen       90         40     True
+              ressy dwitias sari               Ressy Dwitias Sari       71         17     True
+         via tuhamah fauziastuti          Via Tuhamah Fauziastuti       68          1     True
+                murien nugraheni                 Murien Nugraheni       67         20     True
+                 hamidillah ajie                  Hamidillah Ajie       57         16     True
+                          widodo                           Widodo       43          0    False
+               irma permata sari                Irma Permata Sari       42         17     True
+           ze ferdi fauzan putra          Z.E. Ferdi Fauzan Putra       27         13     True
+                     fuad mumtas                      Fuad Mumtas       21          2     True
+                       ali idrus                        Ali Idrus       18         11     True
+                 lipur sugiyanta                  Lipur Sugiyanta       17         20     True
+                        nur elah                         Nur Elah       13          4     True
+                 diat nurhidayat                  Diat Nurhidayat       12         12     True
+           bambang prasetya adhi            Bambang Prasetya Adhi       11         19     True
+          wiranti kusuma hapsari           Wiranti Kusuma Hapsari       11          8     True
+               neng ayu herawati                Neng Ayu Herawati       10         12     True
+         prasetyo wibowo yunanto          Prasetyo Wibowo Yunanto        4          2     True
+               vannisa irma dewi                Vannisa Irma Dewi        3          0    False
+                      deni utama                       Deni Utama        2          2     True
+            vina ardelia effendy             Vina Ardelia Effendy        2          4     True
+               fitrah izul falaq                Fitrah Izul Falaq        1          0    False
+muhammad ridho kurniawan pratama Muhammad Ridho Kurniawan Pratama        1         10     True
+                     shindy arti                      Shindy Arti        1          3     True
+
+Pembimbing TANPA/KURANG publikasi (< 1) -> perlu dilengkapi dari SINTA atau dibuang:
+             nama  skripsi  publikasi
+Fitrah Izul Falaq        1          0
+Vannisa Irma Dewi        3          0
+           Widodo       43          0
+
+Nama di sinta_publications.csv yang tidak cocok dengan pembimbing mana pun (cek ejaan): (tidak ada)
+
+Skripsi dipakai: 309 dari 310 (baris skripsi-pembimbing: 545); dibuang karena SEMUA pembimbingnya tanpa publikasi/tidak terbaca: 1
+
+HASIL: 20 dosen, 233 publikasi, 545 skripsi
+Skripsi per dosen: D01=18, D02=11, D03=2, D04=12, D05=21, D06=57, D07=42, D08=17, D09=90, D10=1, D11=67, D12=10, D13=13, D14=4, D15=71, D16=1, D17=68, D18=2, D19=11, D20=27

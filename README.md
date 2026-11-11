@@ -16,14 +16,17 @@ Sistem menerima ide judul/topik skripsi lalu merangking dosen yang paling sesuai
 ## Cara menjalankan
 ```bash
 pip install -r requirements.txt
-python data/generate_sample_data.py   # hanya untuk data contoh sintetis
+streamlit run app.py                  # tanpa data asli otomatis memakai data/sample (sintetis, ada peringatan di layar)
 python -m src.evaluate                # hasil di folder eval/
-streamlit run app.py
 ```
 
-## Data (WAJIB DIGANTI untuk pengumpulan)
-Data di `data/` saat ini **sintetis** (Dosen A-K, judul dibangkitkan dari template) hanya agar pipeline bisa diuji.
-Ganti dengan data publik asli (SINTA/Google Scholar + daftar skripsi) dengan format kolom:
+## Data
+- `data/sample/` = data **sintetis** untuk uji coba (jangan masuk laporan).
+- `data/` (lecturers.csv, publications.csv, theses.csv) = **data asli**. Kalau file ini ada, sistem otomatis memakainya.
+- Cara membuat data asli (repo UNJ + SINTA): lihat `data_collection/README.md`.
+- Periksa sebelum dipakai/dikumpulkan: `python data_collection/check_data.py`.
+
+Format kolom:
 - `lecturers.csv`: `id, nama, bidang, kuota`
 - `publications.csv`: `lecturer_id, judul, tahun`
 - `theses.csv`: `thesis_id, judul, lecturer_id, tahun` (**tanpa nama mahasiswa**)

@@ -1,12 +1,21 @@
 id,nama,bidang,kuota
-D01,Dosen A,Data Mining,12
-D02,Dosen B,Rekayasa Perangkat Lunak,12
-D03,Dosen C,Internet of Things,16
-D04,Dosen D,Interaksi Manusia dan Komputer,14
-D05,Dosen E,Keamanan Informasi,14
-D06,Dosen F,Pemrosesan Bahasa Alami,14
-D07,Dosen G,Visi Komputer,12
-D08,Dosen H,Basis Data dan Data Engineering,12
-D09,Dosen I,Sistem Informasi dan Tata Kelola TI,18
-D10,Dosen J,Sistem Rekomendasi,12
-D11,Dosen K,Komputasi Awan dan Jaringan,12
+D01,"Ali Idrus, S.Kom., M.Kom.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D02,Bambang Prasetya Adhi,Prodi S1 PTIK,20
+D03,"Deni Utama, S.T., M.T.I.",Prodi S1 Sistem dan TI,20
+D04,Diat Nurhidayat,Prodi S1 PTIK,20
+D05,"Fuad Mumtas, S.Kom., M.T.I.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D06,Hamidillah Ajie,Prodi S1 PTIK,20
+D07,"Irma Permata Sari, S.Pd., M.Eng.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D08,"Lipur Sugiyanta, S.T., M.Kom., Ph.D.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D09,Muchammad Ficky Duskarnaen,Prodi S1 PTIK,20
+D10,"Muhammad Ridho Kurniawan Pratama, M.T.I.",Prodi S1 Sistem dan TI,20
+D11,"Murien Nugraheni, S.T., M.Cs.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D12,Neng Ayu Herawati,Prodi S1 PTIK,20
+D13,Nur Elah,Prodi S1 PTIK,20
+D14,"Prasetyo Wibowo Yunanto, S.T., M.Eng.",Prodi S1 Sistem dan TI,20
+D15,Ressy Dwitias Sari,Prodi S1 PTIK,20
+D16,"Shindy Arti, S.Pd., M.Eng.",Prodi S1 Sistem dan TI,20
+D17,Via Tuhamah Fauziastuti,Prodi S1 PTIK,20
+D18,"Vina Ardelia Effendy, S.T., M.T.I.",Prodi S1 Sistem dan TI,20
+D19,Wiranti Kusuma Hapsari,Prodi S1 PTIK,20
+D20,Z.E. Ferdi Fauzan Putra,Prodi S1 PTIK,20

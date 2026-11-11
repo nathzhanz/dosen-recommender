@@ -1,0 +1,89 @@
+lecturer_id,judul,tahun
+D01,Penerapan xgboost untuk analisis sentimen pada churn pelanggan,2023
+D01,Perbandingan k-means dalam deteksi anomali nilai akademik mahasiswa,2024
+D01,Klasterisasi data penjualan menggunakan support vector machine,2019
+D01,Analisis klasifikasi nilai akademik mahasiswa berbasis random forest,2016
+D01,Analisis analisis sentimen churn pelanggan berbasis naive bayes,2022
+D01,Rancang bangun sistem klasifikasi pada data penjualan dengan xgboost,2025
+D01,Analisis analisis sentimen churn pelanggan berbasis k-means,2015
+D01,Analisis klasifikasi churn pelanggan berbasis k-means,2021
+D02,Arsitektur microservice aplikasi pemerintahan menggunakan clean architecture,2018
+D02,Penerapan clean architecture untuk otomasi deployment pada aplikasi akademik,2024
+D02,Pengujian perangkat lunak aplikasi e-commerce menggunakan continuous integration,2018
+D02,Perbandingan agile scrum dalam pengujian perangkat lunak layanan mobile,2016
+D02,Perbandingan user centered design dalam desain antarmuka pengguna aplikasi lansia,2023
+D02,Perbandingan unified modeling language dalam otomasi deployment sistem informasi perpustakaan,2023
+D02,Penerapan unified modeling language untuk arsitektur microservice pada aplikasi e-commerce,2022
+D02,Rancang bangun sistem evaluasi usability pada layanan kesehatan digital dengan user centered design,2016
+D03,Kontrol perangkat jarak jauh pertanian hidroponik menggunakan arduino,2020
+D03,Perbandingan arduino dalam pelacakan aset parkir cerdas,2017
+D03,Perbandingan mqtt dalam pemantauan lingkungan pertanian hidroponik,2024
+D03,Penerapan esp32 untuk pelacakan aset pada parkir cerdas,2018
+D03,Kontrol perangkat jarak jauh kualitas udara menggunakan esp32,2025
+D03,Perbandingan sensor suhu dalam irigasi cerdas gedung kampus,2025
+D03,Penerapan lora untuk irigasi cerdas pada gedung kampus,2025
+D03,Rancang bangun sistem irigasi cerdas pada pertanian hidroponik dengan esp32,2022
+D04,Aksesibilitas aplikasi lansia menggunakan system usability scale,2018
+D04,Rancang bangun sistem pengalaman pengguna pada layanan kesehatan digital dengan design thinking,2018
+D04,Penerapan design thinking untuk aksesibilitas pada portal kampus,2016
+D04,Analisis arsitektur microservice layanan mobile berbasis clean architecture,2025
+D04,Perbandingan agile scrum dalam arsitektur microservice aplikasi akademik,2019
+D04,Analisis evaluasi usability game edukasi berbasis system usability scale,2021
+D04,Analisis aksesibilitas game edukasi berbasis eye tracking,2016
+D04,Perbandingan design thinking dalam desain antarmuka pengguna aplikasi pembelajaran,2021
+D05,Rancang bangun sistem analisis kerentanan pada aplikasi web dengan firewall,2017
+D05,Deteksi intrusi aplikasi web menggunakan firewall,2017
+D05,Perbandingan iso 27001 dalam analisis kerentanan server universitas,2018
+D05,Manajemen bandwidth aplikasi streaming menggunakan kubernetes,2025
+D05,Perbandingan advanced encryption standard dalam manajemen risiko transaksi digital,2024
+D05,Perbandingan blockchain dalam analisis kerentanan transaksi digital,2017
+D05,Rancang bangun sistem analisis kerentanan pada aplikasi web dengan advanced encryption standard,2025
+D05,Perbandingan penetration testing dalam analisis kerentanan data pribadi,2022
+D06,Rancang bangun sistem pencarian dokumen pada karya ilmiah dengan tf idf,2015
+D06,Pencarian dokumen berita daring menggunakan word2vec,2025
+D06,Ringkasan otomatis berita daring menggunakan word2vec,2024
+D06,Penerapan tf idf untuk tanya jawab pada layanan pelanggan,2018
+D06,Analisis pencarian dokumen layanan pelanggan berbasis word2vec,2024
+D06,Klasterisasi churn pelanggan menggunakan naive bayes,2024
+D06,Analisis ekstraksi entitas karya ilmiah berbasis long short term memory,2018
+D06,Penerapan indobert untuk klasifikasi teks pada layanan pelanggan,2016
+D07,Perbandingan transfer learning dalam klasifikasi citra citra medis,2015
+D07,Penerapan convolutional neural network untuk segmentasi citra pada citra medis,2024
+D07,Rancang bangun sistem segmentasi citra pada penyakit daun dengan transfer learning,2015
+D07,Rancang bangun sistem deteksi objek pada kendaraan dengan convolutional neural network,2022
+D07,Klasifikasi citra kemasan produk menggunakan yolo,2019
+D07,Penerapan mobilenet untuk deteksi objek pada kendaraan,2024
+D07,Perbandingan mobilenet dalam klasifikasi citra kendaraan,2022
+D07,Analisis analisis sentimen data penjualan berbasis support vector machine,2024
+D08,Analisis integrasi data data akademik berbasis mongodb,2021
+D08,Analisis sentimen nilai akademik mahasiswa menggunakan support vector machine,2015
+D08,Analisis tata kelola data data keuangan daerah berbasis dimensional modeling,2015
+D08,Perbandingan mongodb dalam optimasi query data keuangan daerah,2022
+D08,Perbandingan postgresql dalam optimasi query data logistik,2023
+D08,Rancang bangun sistem perancangan data warehouse pada data akademik dengan postgresql,2022
+D08,Penerapan naive bayes untuk deteksi anomali pada transaksi keuangan,2019
+D08,Rancang bangun sistem pipeline etl pada data keuangan daerah dengan postgresql,2023
+D09,Analisis perencanaan strategis rumah sakit berbasis cobit,2016
+D09,Adopsi teknologi instansi pemerintah menggunakan itil,2015
+D09,Audit teknologi informasi instansi pemerintah menggunakan technology acceptance model,2021
+D09,Perbandingan balanced scorecard dalam adopsi teknologi usaha kecil menengah,2017
+D09,Perbandingan itil dalam perencanaan strategis rumah sakit,2025
+D09,Analisis evaluasi tingkat kematangan instansi pemerintah berbasis enterprise architecture,2025
+D09,Adopsi teknologi perbankan menggunakan technology acceptance model,2019
+D09,Rancang bangun sistem audit teknologi informasi pada instansi pemerintah dengan enterprise architecture,2018
+D10,Rekomendasi produk aplikasi musik menggunakan matrix factorization,2016
+D10,Perbandingan cosine similarity dalam rekomendasi materi belajar aplikasi musik,2020
+D10,Perbandingan association rule dalam rekomendasi film platform e-learning,2021
+D10,Rancang bangun sistem personalisasi konten pada destinasi wisata dengan cosine similarity,2015
+D10,Penerapan cosine similarity untuk rekomendasi film pada platform e-learning,2020
+D10,Analisis personalisasi konten toko daring berbasis matrix factorization,2021
+D10,Rekomendasi film platform e-learning menggunakan collaborative filtering,2025
+D10,Rekomendasi produk platform e-learning menggunakan matrix factorization,2017
+D11,Rancang bangun sistem load balancing pada layanan kampus dengan quality of service,2019
+D11,Analisis optimasi kinerja jaringan layanan pemerintah berbasis openstack,2018
+D11,Rancang bangun sistem virtualisasi server pada jaringan nirkabel dengan docker,2023
+D11,Analisis migrasi layanan aplikasi streaming berbasis kubernetes,2023
+D11,Perbandingan blockchain dalam manajemen risiko jaringan kampus,2024
+D11,Analisis deteksi intrusi data pribadi berbasis penetration testing,2019
+D11,Analisis deteksi intrusi aplikasi web berbasis penetration testing,2024
+D11,Virtualisasi server layanan kampus menggunakan docker,2023

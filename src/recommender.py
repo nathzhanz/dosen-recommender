@@ -11,7 +11,14 @@ from .ranking import MODELS, bm25_scores, rank
 DATA = Path(__file__).resolve().parent.parent / "data"
 
 
+def using_sample_data(data_dir: Path = DATA) -> bool:
+    return not (data_dir / "theses.csv").exists()
+
+
 def load_data(data_dir: Path = DATA):
+    """Pakai data asli di data/ bila ada; kalau tidak, jatuh ke data contoh sintetis di data/sample/."""
+    if using_sample_data(data_dir):
+        data_dir = data_dir / "sample"
     lecturers = pd.read_csv(data_dir / "lecturers.csv")
     pubs = pd.read_csv(data_dir / "publications.csv")
     theses = pd.read_csv(data_dir / "theses.csv")

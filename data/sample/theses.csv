@@ -1,0 +1,140 @@
+thesis_id,judul,lecturer_id,tahun
+S001,Analisis klasterisasi data penjualan berbasis naive bayes,D01,2021
+S002,Analisis sentimen transaksi keuangan menggunakan k-means,D01,2021
+S003,Rancang bangun sistem prediksi pada ulasan aplikasi dengan xgboost,D01,2023
+S004,Rekomendasi materi belajar destinasi wisata menggunakan collaborative filtering,D01,2024
+S005,Penerapan naive bayes untuk analisis sentimen pada ulasan aplikasi,D01,2025
+S006,Rancang bangun sistem klasterisasi pada ulasan aplikasi dengan naive bayes,D01,2021
+S007,Perbandingan xgboost dalam prediksi nilai akademik mahasiswa,D01,2024
+S008,Penerapan support vector machine untuk analisis sentimen pada churn pelanggan,D01,2018
+S009,Penerapan cosine similarity untuk rekomendasi materi belajar pada lowongan kerja,D01,2019
+S010,Perbandingan xgboost dalam deteksi anomali data penjualan,D01,2018
+S011,Analisis sentimen data penjualan menggunakan naive bayes,D01,2019
+S012,Penerapan random forest untuk deteksi anomali pada data penjualan,D01,2020
+S013,Perbandingan clean architecture dalam manajemen kebutuhan sistem informasi perpustakaan,D02,2018
+S014,Manajemen kebutuhan aplikasi akademik menggunakan agile scrum,D02,2023
+S015,Penerapan unified modeling language untuk arsitektur microservice pada sistem informasi perpustakaan,D02,2020
+S016,Rancang bangun sistem manajemen kebutuhan pada aplikasi akademik dengan agile scrum,D02,2024
+S017,Rancang bangun sistem kualitas kode pada aplikasi akademik dengan agile scrum,D02,2018
+S018,Analisis pengujian perangkat lunak sistem informasi perpustakaan berbasis test driven development,D02,2021
+S019,Penerapan test driven development untuk kualitas kode pada aplikasi e-commerce,D02,2025
+S020,Kualitas kode aplikasi akademik menggunakan clean architecture,D02,2018
+S021,Perbandingan agile scrum dalam pengujian perangkat lunak sistem informasi perpustakaan,D02,2020
+S022,Rancang bangun sistem manajemen kebutuhan pada aplikasi akademik dengan unified modeling language,D02,2020
+S023,Rancang bangun sistem arsitektur microservice pada aplikasi e-commerce dengan unified modeling language,D02,2024
+S024,Perbandingan test driven development dalam kualitas kode sistem informasi perpustakaan,D02,2022
+S025,Optimasi kinerja jaringan pusat data menggunakan openstack,D03,2022
+S026,Analisis pemantauan lingkungan kandang ternak berbasis mqtt,D03,2022
+S027,Perbandingan arduino dalam irigasi cerdas parkir cerdas,D03,2018
+S028,Perbandingan esp32 dalam irigasi cerdas gedung kampus,D03,2022
+S029,Kontrol perangkat jarak jauh kandang ternak menggunakan mqtt,D03,2022
+S030,Analisis otomasi rumah parkir cerdas berbasis sensor suhu,D03,2025
+S031,Pemantauan lingkungan kandang ternak menggunakan lora,D03,2018
+S032,Penerapan mqtt untuk irigasi cerdas pada kualitas udara,D03,2024
+S033,Pemantauan lingkungan parkir cerdas menggunakan mqtt,D03,2018
+S034,Perbandingan kubernetes dalam migrasi layanan aplikasi streaming,D03,2020
+S035,Analisis pemantauan lingkungan gedung kampus berbasis sensor suhu,D03,2021
+S036,Analisis kontrol perangkat jarak jauh parkir cerdas berbasis lora,D03,2020
+S037,Penerapan kubernetes untuk virtualisasi server pada aplikasi streaming,D03,2018
+S038,Analisis pelacakan aset kandang ternak berbasis mqtt,D03,2020
+S039,Perbandingan design thinking dalam desain antarmuka pengguna aplikasi lansia,D04,2019
+S040,Analisis otomasi deployment aplikasi akademik berbasis continuous integration,D04,2022
+S041,Rancang bangun sistem pengalaman pengguna pada portal kampus dengan heuristic evaluation,D04,2020
+S042,Rancang bangun sistem desain antarmuka pengguna pada game edukasi dengan eye tracking,D04,2022
+S043,Pengalaman pengguna layanan kesehatan digital menggunakan design thinking,D04,2024
+S044,Perbandingan heuristic evaluation dalam pengalaman pengguna aplikasi lansia,D04,2025
+S045,Perbandingan user centered design dalam aksesibilitas aplikasi pembelajaran,D04,2022
+S046,Perbandingan system usability scale dalam pengalaman pengguna layanan kesehatan digital,D04,2022
+S047,Penerapan system usability scale untuk desain antarmuka pengguna pada aplikasi pembelajaran,D04,2021
+S048,Perbandingan unified modeling language dalam pengujian perangkat lunak layanan mobile,D04,2021
+S049,Penerapan advanced encryption standard untuk enkripsi data pada data pribadi,D05,2019
+S050,Penerapan penetration testing untuk analisis kerentanan pada aplikasi web,D05,2019
+S051,Analisis manajemen risiko transaksi digital berbasis firewall,D05,2018
+S052,Rancang bangun sistem analisis kerentanan pada jaringan kampus dengan blockchain,D05,2024
+S053,Analisis enkripsi data transaksi digital berbasis firewall,D05,2021
+S054,Analisis analisis kerentanan jaringan kampus berbasis firewall,D05,2024
+S055,Rancang bangun sistem audit keamanan pada aplikasi web dengan firewall,D05,2018
+S056,Perbandingan docker dalam migrasi layanan layanan kampus,D05,2024
+S057,Rancang bangun sistem audit keamanan pada data pribadi dengan iso 27001,D05,2024
+S058,Rancang bangun sistem enkripsi data pada transaksi digital dengan advanced encryption standard,D05,2022
+S059,Prediksi nilai akademik mahasiswa menggunakan xgboost,D06,2023
+S060,Analisis klasifikasi teks karya ilmiah berbasis long short term memory,D06,2019
+S061,Analisis tanya jawab karya ilmiah berbasis word2vec,D06,2020
+S062,Analisis ekstraksi entitas karya ilmiah berbasis bm25,D06,2025
+S063,Perbandingan indobert dalam pencarian dokumen dokumen hukum,D06,2019
+S064,Rancang bangun sistem ringkasan otomatis pada layanan pelanggan dengan long short term memory,D06,2024
+S065,Rancang bangun sistem pencarian dokumen pada karya ilmiah dengan word2vec,D06,2021
+S066,Analisis pencarian dokumen layanan pelanggan berbasis indobert,D06,2022
+S067,Perbandingan tf idf dalam ringkasan otomatis dokumen hukum,D06,2024
+S068,Penerapan long short term memory untuk tanya jawab pada karya ilmiah,D06,2018
+S069,Penerapan word2vec untuk tanya jawab pada media sosial,D06,2023
+S070,Perbandingan long short term memory dalam pencarian dokumen layanan pelanggan,D06,2023
+S071,Rancang bangun sistem pencarian dokumen pada media sosial dengan indobert,D06,2021
+S072,Penerapan tf idf untuk pencarian dokumen pada layanan pelanggan,D06,2020
+S073,Rancang bangun sistem pencarian dokumen pada layanan pelanggan dengan bm25,D06,2022
+S074,Penerapan k-means untuk prediksi pada data penjualan,D06,2020
+S075,Klasifikasi citra presensi mahasiswa menggunakan yolo,D07,2019
+S076,Penerapan convolutional neural network untuk pengenalan tulisan tangan pada penyakit daun,D07,2018
+S077,Perbandingan transfer learning dalam segmentasi citra citra medis,D07,2021
+S078,Analisis segmentasi citra penyakit daun berbasis convolutional neural network,D07,2022
+S079,Perbandingan augmentasi data dalam klasifikasi citra citra medis,D07,2021
+S080,Analisis klasifikasi citra citra medis berbasis convolutional neural network,D07,2020
+S081,Perbandingan transfer learning dalam pengenalan tulisan tangan kendaraan,D07,2019
+S082,Analisis segmentasi citra kemasan produk berbasis transfer learning,D07,2025
+S083,Perbandingan augmentasi data dalam deteksi objek presensi mahasiswa,D07,2022
+S084,Penerapan mobilenet untuk pengenalan tulisan tangan pada citra medis,D07,2022
+S085,Penerapan mobilenet untuk segmentasi citra pada kendaraan,D07,2022
+S086,Perbandingan augmentasi data dalam segmentasi citra citra medis,D07,2025
+S087,Analisis pengenalan wajah penyakit daun berbasis convolutional neural network,D07,2023
+S088,Rancang bangun sistem pengenalan wajah pada kemasan produk dengan augmentasi data,D07,2018
+S089,Perbandingan postgresql dalam tata kelola data data akademik,D08,2022
+S090,Rancang bangun sistem integrasi data pada data logistik dengan apache airflow,D08,2018
+S091,Analisis tata kelola data data keuangan daerah berbasis apache airflow,D08,2020
+S092,Rancang bangun sistem integrasi data pada data sensus dengan mongodb,D08,2024
+S093,Analisis optimasi query data sensus berbasis postgresql,D08,2024
+S094,Rancang bangun sistem perancangan data warehouse pada data keuangan daerah dengan mongodb,D08,2024
+S095,Penerapan apache spark untuk pipeline etl pada data kesehatan,D08,2023
+S096,Rancang bangun sistem klasifikasi pada nilai akademik mahasiswa dengan xgboost,D08,2018
+S097,Rancang bangun sistem optimasi query pada data keuangan daerah dengan apache spark,D08,2022
+S098,Rancang bangun sistem perancangan data warehouse pada data sensus dengan mongodb,D08,2024
+S099,Rancang bangun sistem analisis sentimen pada transaksi keuangan dengan random forest,D08,2019
+S100,Optimasi query data sensus menggunakan dimensional modeling,D09,2023
+S101,Transformasi digital instansi pemerintah menggunakan enterprise architecture,D09,2021
+S102,Analisis perencanaan strategis perbankan berbasis itil,D09,2022
+S103,Penerapan cobit untuk evaluasi tingkat kematangan pada instansi pemerintah,D09,2025
+S104,Analisis perencanaan strategis instansi pemerintah berbasis cobit,D09,2023
+S105,Penerapan itil untuk perencanaan strategis pada perbankan,D09,2023
+S106,Analisis perencanaan strategis rumah sakit berbasis technology acceptance model,D09,2022
+S107,Analisis evaluasi tingkat kematangan perguruan tinggi berbasis enterprise architecture,D09,2020
+S108,Penerapan balanced scorecard untuk adopsi teknologi pada instansi pemerintah,D09,2019
+S109,Audit teknologi informasi perguruan tinggi menggunakan balanced scorecard,D09,2025
+S110,Analisis transformasi digital instansi pemerintah berbasis enterprise architecture,D09,2019
+S111,Rancang bangun sistem evaluasi tingkat kematangan pada perbankan dengan balanced scorecard,D09,2023
+S112,Penerapan dimensional modeling untuk perancangan data warehouse pada data logistik,D09,2024
+S113,Personalisasi konten lowongan kerja menggunakan content based filtering,D10,2021
+S114,Penerapan word2vec untuk pencarian dokumen pada layanan pelanggan,D10,2018
+S115,Penerapan association rule untuk rekomendasi materi belajar pada destinasi wisata,D10,2020
+S116,Penerapan matrix factorization untuk personalisasi konten pada toko daring,D10,2020
+S117,Penerapan association rule untuk rekomendasi film pada toko daring,D10,2019
+S118,Analisis personalisasi konten toko daring berbasis association rule,D10,2025
+S119,Perbandingan association rule dalam rekomendasi produk destinasi wisata,D10,2025
+S120,Rekomendasi produk aplikasi musik menggunakan cosine similarity,D10,2024
+S121,Rancang bangun sistem rekomendasi film pada toko daring dengan collaborative filtering,D10,2023
+S122,Rekomendasi materi belajar lowongan kerja menggunakan matrix factorization,D10,2023
+S123,Perbandingan matrix factorization dalam personalisasi konten aplikasi musik,D10,2024
+S124,Personalisasi konten aplikasi musik menggunakan content based filtering,D10,2025
+S125,Rancang bangun sistem pencarian dokumen pada karya ilmiah dengan long short term memory,D10,2024
+S126,Analisis rekomendasi film destinasi wisata berbasis matrix factorization,D10,2023
+S127,Rancang bangun sistem klasifikasi teks pada berita daring dengan tf idf,D10,2019
+S128,Analisis rekomendasi materi belajar toko daring berbasis association rule,D10,2023
+S129,Rancang bangun sistem load balancing pada jaringan nirkabel dengan kubernetes,D11,2022
+S130,Perbandingan docker dalam optimasi kinerja jaringan jaringan nirkabel,D11,2025
+S131,Rancang bangun sistem migrasi layanan pada aplikasi streaming dengan quality of service,D11,2022
+S132,Perbandingan software defined network dalam optimasi kinerja jaringan aplikasi streaming,D11,2019
+S133,Perbandingan openstack dalam manajemen bandwidth jaringan nirkabel,D11,2018
+S134,Perbandingan docker dalam optimasi kinerja jaringan pusat data,D11,2022
+S135,Rancang bangun sistem manajemen bandwidth pada pusat data dengan kubernetes,D11,2024
+S136,Penerapan openstack untuk migrasi layanan pada jaringan nirkabel,D11,2019
+S137,Manajemen bandwidth aplikasi streaming menggunakan docker,D11,2019
+S138,Rancang bangun sistem load balancing pada aplikasi streaming dengan docker,D11,2018
+S139,Penerapan firewall untuk manajemen risiko pada data pribadi,D11,2019

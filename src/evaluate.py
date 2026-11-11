@@ -1,7 +1,9 @@
 """Evaluasi hold-out: judul skripsi lama dijadikan query, cek apakah pembimbing asli di top-k.
 
-Skripsi uji DIKELUARKAN dari profil dosen (tidak bocor). Metrik: Success@1, Success@3, MRR.
-Menjalankan: python -m src.evaluate
+- Satu skripsi bisa punya >1 pembimbing (beberapa baris dengan thesis_id sama). Query dianggap BENAR
+  bila SALAH SATU pembimbing aslinya muncul (rank = posisi pembimbing asli yang paling atas).
+- Semua baris skripsi uji (untuk semua pembimbingnya) DIKELUARKAN dari profil dosen, jadi tidak ada kebocoran.
+Metrik: Success@1, Success@3, MRR.   Menjalankan: python -m src.evaluate
 """
 import json
 import random
@@ -9,60 +11,71 @@ from pathlib import Path
 
 import pandas as pd
 
-from .recommender import Recommender, load_data
+from .recommender import Recommender, load_data, using_sample_data
 
 OUT = Path(__file__).resolve().parent.parent / "eval"
 N_QUERY = 30
 SEED = 7
 
 
-def split_queries(theses: pd.DataFrame, n: int = N_QUERY, seed: int = SEED):
+def split_queries(theses: pd.DataFrame, n: int = N_QUERY, seed: int = SEED) -> pd.DataFrame:
+    """Pilih n skripsi unik sebagai query, bergiliran antar dosen (pembimbing pertama) agar tidak bias."""
     rng = random.Random(seed)
-    # ambil query secara merata antar dosen agar tidak bias
-    by_lec = {lid: list(g.index) for lid, g in theses.groupby("lecturer_id")}
+    first = theses.drop_duplicates("thesis_id")  # satu baris per skripsi
+    n = min(n, max(len(first) // 2, 1))  # jangan minta query lebih banyak dari data
+    by_lec = {lid: list(g["thesis_id"]) for lid, g in first.groupby("lecturer_id")}
     picks = []
     while len(picks) < n:
-        for lid, idxs in by_lec.items():
-            if idxs and len(picks) < n:
-                picks.append(idxs.pop(rng.randrange(len(idxs))))
-    return theses.loc[picks]
+        progressed = False
+        for lid in list(by_lec):
+            if by_lec[lid] and len(picks) < n:
+                picks.append(by_lec[lid].pop(rng.randrange(len(by_lec[lid]))))
+                progressed = True
+        if not progressed:
+            break
+    return first[first["thesis_id"].isin(picks)]
 
 
-def metrics(ranked_ids: list[list[str]], truth: list[str]):
-    s1 = s3 = rr = 0.0
-    for ranked, t in zip(ranked_ids, truth):
-        if t in ranked:
-            pos = ranked.index(t) + 1
-            rr += 1 / pos
-            s1 += pos <= 1
-            s3 += pos <= 3
-    n = len(truth)
-    return {"Success@1": s1 / n, "Success@3": s3 / n, "MRR": rr / n}
+def metrics(ranks: list[int | None]):
+    n = len(ranks)
+    s1 = sum(1 for r in ranks if r == 1)
+    s3 = sum(1 for r in ranks if r is not None and r <= 3)
+    mrr = sum(1 / r for r in ranks if r is not None)
+    return {"Success@1": s1 / n, "Success@3": s3 / n, "MRR": mrr / n}
 
 
 def run():
+    if using_sample_data():
+        print("PERINGATAN: memakai data sintetis; angka ini tidak boleh masuk laporan.")
     lecturers, pubs, theses = load_data()
+    theses = theses.copy()
+    theses["thesis_id"] = theses["thesis_id"].astype(str)
     test = split_queries(theses)
-    train = theses.drop(test.index)
-    rows, details = [], []
-    configs = [(p, m) for p in ("publikasi", "gabungan") for m in ("TF-IDF", "BM25")]
-    for profile, model in configs:
-        rec = Recommender(lecturers, pubs, train, profile=profile)
-        ranked, truth = [], []
-        for _, r in test.iterrows():
-            res = rec.recommend(r["judul"], model=model, k=len(lecturers))
-            ranked.append([x["id"] for x in res]); truth.append(r["lecturer_id"])
-            if profile == "gabungan":
-                top = ranked[-1][0] if ranked[-1] else None
-                details.append({"model": model, "query": r["judul"], "benar": r["lecturer_id"],
-                                "top3": ranked[-1][:3], "gagal_top3": r["lecturer_id"] not in ranked[-1][:3]})
-        rows.append({"profil": profile, "model": model, **metrics(ranked, truth)})
+    test_ids = set(test["thesis_id"])
+    truth = theses[theses["thesis_id"].isin(test_ids)].groupby("thesis_id")["lecturer_id"].agg(set).to_dict()
+    train = theses[~theses["thesis_id"].isin(test_ids)]
+    rows, failures = [], []
+    for profile in ("publikasi", "gabungan"):
+        for model in ("TF-IDF", "BM25"):
+            rec = Recommender(lecturers, pubs, train, profile=profile)
+            ranks = []
+            for _, r in test.iterrows():
+                res = rec.recommend(r["judul"], model=model, k=len(lecturers))
+                order = [x["id"] for x in res]
+                pos = [order.index(l) + 1 for l in truth[r["thesis_id"]] if l in order]
+                rank = min(pos) if pos else None
+                ranks.append(rank)
+                if profile == "gabungan" and (rank is None or rank > 3):
+                    failures.append({"model": model, "query": r["judul"], "pembimbing_asli": sorted(truth[r["thesis_id"]]),
+                                     "top3": order[:3], "rank_pembimbing_asli": rank})
+            rows.append({"profil": profile, "model": model, **metrics(ranks)})
     OUT.mkdir(exist_ok=True)
     df = pd.DataFrame(rows).round(3)
     df.to_csv(OUT / "hasil_evaluasi.csv", index=False)
-    test[["thesis_id", "judul", "lecturer_id"]].to_csv(OUT / "query_uji.csv", index=False)
-    (OUT / "query_gagal.json").write_text(
-        json.dumps([d for d in details if d["gagal_top3"]], indent=2, ensure_ascii=False), encoding="utf-8")
+    test[["thesis_id", "judul"]].assign(pembimbing_asli=test["thesis_id"].map(lambda t: ",".join(sorted(truth[t])))) \
+        .to_csv(OUT / "query_uji.csv", index=False)
+    (OUT / "query_gagal.json").write_text(json.dumps(failures, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"{len(test)} query uji, {len(train)} baris skripsi di profil, {len(lecturers)} dosen")
     print(df.to_string(index=False))
     return df
 
