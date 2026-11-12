@@ -50,7 +50,14 @@ def run():
     lecturers, pubs, theses = load_data()
     theses = theses.copy()
     theses["thesis_id"] = theses["thesis_id"].astype(str)
-    test = split_queries(theses)
+    manual = OUT / "query_uji_manual.csv"  # daftar query hasil kurasi manual (Naila); kalau ada, dipakai
+    if manual.exists():
+        ids = pd.read_csv(manual, dtype=str)["thesis_id"].tolist()
+        first = theses.drop_duplicates("thesis_id")
+        test = first[first["thesis_id"].isin(ids)]
+        print(f"Memakai {len(test)} query dari {manual.name}")
+    else:
+        test = split_queries(theses)
     test_ids = set(test["thesis_id"])
     truth = theses[theses["thesis_id"].isin(test_ids)].groupby("thesis_id")["lecturer_id"].agg(set).to_dict()
     train = theses[~theses["thesis_id"].isin(test_ids)]
@@ -72,8 +79,9 @@ def run():
     OUT.mkdir(exist_ok=True)
     df = pd.DataFrame(rows).round(3)
     df.to_csv(OUT / "hasil_evaluasi.csv", index=False)
-    test[["thesis_id", "judul"]].assign(pembimbing_asli=test["thesis_id"].map(lambda t: ",".join(sorted(truth[t])))) \
-        .to_csv(OUT / "query_uji.csv", index=False)
+    if not manual.exists():  # jangan menimpa daftar manual
+        test[["thesis_id", "judul"]].assign(pembimbing_asli=test["thesis_id"].map(lambda t: ",".join(sorted(truth[t])))) \
+            .to_csv(OUT / "query_uji.csv", index=False)
     (OUT / "query_gagal.json").write_text(json.dumps(failures, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"{len(test)} query uji, {len(train)} baris skripsi di profil, {len(lecturers)} dosen")
     print(df.to_string(index=False))
