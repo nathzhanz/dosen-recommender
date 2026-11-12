@@ -1,345 +1,471 @@
 [
   {
     "model": "TF-IDF",
-    "query": "PENGEMBANGAN SISTEM INFORMASI MONITORING DAN EVALUASI PERKULIAHAN DENGAN METODE AGILE FEATURE DRIVEN PADA FAKULTAS TEKNIK UNIVERSITAS NEGERI JAKARTA",
+    "query": "COGNITIVE WALKTHROUGH PADA ANTARMUKA PENGGUNA PLATFORM PEMESANAN VENDOR WEDDING",
     "pembimbing_asli": [
-      "D05",
-      "D11"
+      "D16"
     ],
     "top3": [
-      "D16",
-      "D17",
+      "D07",
+      "D05",
       "D06"
     ],
-    "rank_pembimbing_asli": 7
+    "rank_pembimbing_asli": 8
   },
   {
     "model": "TF-IDF",
-    "query": "PENERAPAN ALGORITMA REGRESI LINEAR SEDERHANA UNTUK PREDIKSI CASHFLOW PADA PT MAJAPAHIT TEKNOLOGI NUSANTARA",
+    "query": "PENGEMBANGAN VIDEO MEDIA PEMBELAJARAN PADA MATA PELAJARAN MATEMATIKA MATERI TRIGONOMETRI SMK NEGERI 7 JAKARTA MENGGUNAKAN METODE FUN LEARNING DENGAN TIKTOK",
     "pembimbing_asli": [
-      "D17"
+      "D08",
+      "D23"
     ],
     "top3": [
-      "D05",
-      "D04",
-      "D18"
+      "D19",
+      "D18",
+      "D07"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "TF-IDF",
+    "query": "RANCANG BANGUN WEBSITE LDK SALIM UNJ DENGAN FRAMEWORK LARAVEL",
+    "pembimbing_asli": [
+      "D09",
+      "D16"
+    ],
+    "top3": [
+      "D02",
+      "D10",
+      "D07"
     ],
     "rank_pembimbing_asli": 10
   },
   {
     "model": "TF-IDF",
-    "query": "PERBANDINGAN PERFORMA ARIMA, SARIMA, DAN KNN REGRESSION DALAM MEMPREDIKSI PENJUALAN PART NUMBER DI INDUSTRI MANUFAKTUR OTOMOTIF (STUDI KASUS : PT TRI CENTRUM FORTUNA)",
-    "pembimbing_asli": [
-      "D01",
-      "D08"
-    ],
-    "top3": [
-      "D05",
-      "D14",
-      "D07"
-    ],
-    "rank_pembimbing_asli": 5
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PERANCANGAN ANTARMUKA SISTEM INFORMASI MANAJEMEN BENGKEL MULYA MOTOR BERBASIS USER EXPERIENCE DENGAN METODE LEAN UX",
-    "pembimbing_asli": [
-      "D11"
-    ],
-    "top3": [
-      "D09",
-      "D06",
-      "D07"
-    ],
-    "rank_pembimbing_asli": 7
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PENGEMBANGAN UI/UX SISTEM INFORMASI DATA ABSENSI PEGAWAI (DASI) UNIVERSITAS NEGERI JAKARTA BERBASIS WEBSITE MENGGUNAKAN METODE USER-CENTERED DESIGN",
-    "pembimbing_asli": [
-      "D04",
-      "D20"
-    ],
-    "top3": [
-      "D17",
-      "D06",
-      "D15"
-    ],
-    "rank_pembimbing_asli": 6
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PERANCANGAN VIDEO MEDIA INTERAKTIF PROFIL RESTORAN PAGI SORE SAHARJO BERBASIS MOTION GRAPHIC",
-    "pembimbing_asli": [
-      "D19"
-    ],
-    "top3": [
-      "D17",
-      "D20",
-      "D15"
-    ],
-    "rank_pembimbing_asli": 11
-  },
-  {
-    "model": "TF-IDF",
-    "query": "ANALISIS PERBANDINGAN PREDIKSI PENYAKIT DIABETES MENGGUNAKAN ALGORITMA LOGISTIC REGRESSION DAN K-NEAREST NEIGHBOR",
-    "pembimbing_asli": [
-      "D01",
-      "D08"
-    ],
-    "top3": [
-      "D11",
-      "D05",
-      "D02"
-    ],
-    "rank_pembimbing_asli": 5
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN E-BOOK INTERAKTIF UNTUK MATERI NIRMANA KELAS X SMKN 9 KOTA BEKASI MENGGUNAKAN MODEL FOUR-D",
-    "pembimbing_asli": [
-      "D13",
-      "D19"
-    ],
-    "top3": [
-      "D17",
-      "D09",
-      "D06"
-    ],
-    "rank_pembimbing_asli": 6
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PENERAPAN RFID PADA SISTEM PRESENSI SISWA BERBASIS INTERNET OF THINGS DI SMP ISLAM AL-AZHAR BUKITTINGGI",
-    "pembimbing_asli": [
-      "D11",
-      "D14"
-    ],
-    "top3": [
-      "D03",
-      "D06",
-      "D08"
-    ],
-    "rank_pembimbing_asli": 11
-  },
-  {
-    "model": "TF-IDF",
-    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN INTERAKTIF BERBASIS E-MODULE UNTUK MATERI AUDIO PADA MATA KULIAH SISTEM MULTIMEDIA LANJUT DENGAN METODE FOUR-D",
-    "pembimbing_asli": [
-      "D13",
-      "D15"
-    ],
-    "top3": [
-      "D17",
-      "D20",
-      "D06"
-    ],
-    "rank_pembimbing_asli": 4
-  },
-  {
-    "model": "TF-IDF",
-    "query": "RANCANG BANGUN COMPANY PROFILE BERBASIS WEB PT. CIA DWI FORTUNA DENGAN METODE PROTOTYPING",
-    "pembimbing_asli": [
-      "D17",
-      "D19"
-    ],
-    "top3": [
-      "D15",
-      "D07",
-      "D09"
-    ],
-    "rank_pembimbing_asli": 7
-  },
-  {
-    "model": "BM25",
-    "query": "PENGEMBANGAN SISTEM INFORMASI MONITORING DAN EVALUASI PERKULIAHAN DENGAN METODE AGILE FEATURE DRIVEN PADA FAKULTAS TEKNIK UNIVERSITAS NEGERI JAKARTA",
-    "pembimbing_asli": [
-      "D05",
-      "D11"
-    ],
-    "top3": [
-      "D06",
-      "D17",
-      "D09"
-    ],
-    "rank_pembimbing_asli": 6
-  },
-  {
-    "model": "BM25",
-    "query": "PENGEMBANGAN BACK-END SISTEM INFORMASI BERBASIS WEBSITE SMKN 6 JAKARTA MENGGUNAKAN FRAMEWORK LARAVEL DENGAN METODE WATERFALL",
+    "query": "PENGEMBANGAN APLIKASI PENCARIAN CAPTION FOTO BERBASIS KONTEN MENGGUNAKAN TEKNIK IMAGE MATCHING DAN GOOGLE CLOUD VISION PADA PLATFORM ANDROID",
     "pembimbing_asli": [
       "D02",
-      "D09"
-    ],
-    "top3": [
-      "D08",
-      "D15",
-      "D06"
-    ],
-    "rank_pembimbing_asli": 4
-  },
-  {
-    "model": "BM25",
-    "query": "PENERAPAN ALGORITMA REGRESI LINEAR SEDERHANA UNTUK PREDIKSI CASHFLOW PADA PT MAJAPAHIT TEKNOLOGI NUSANTARA",
-    "pembimbing_asli": [
-      "D17"
-    ],
-    "top3": [
-      "D04",
-      "D05",
-      "D08"
-    ],
-    "rank_pembimbing_asli": 9
-  },
-  {
-    "model": "BM25",
-    "query": "PERANCANGAN ANTARMUKA SISTEM INFORMASI MANAJEMEN BENGKEL MULYA MOTOR BERBASIS USER EXPERIENCE DENGAN METODE LEAN UX",
-    "pembimbing_asli": [
-      "D11"
-    ],
-    "top3": [
-      "D09",
-      "D07",
-      "D06"
-    ],
-    "rank_pembimbing_asli": 5
-  },
-  {
-    "model": "BM25",
-    "query": "PENGEMBANGAN UI/UX SISTEM INFORMASI DATA ABSENSI PEGAWAI (DASI) UNIVERSITAS NEGERI JAKARTA BERBASIS WEBSITE MENGGUNAKAN METODE USER-CENTERED DESIGN",
-    "pembimbing_asli": [
-      "D04",
-      "D20"
-    ],
-    "top3": [
-      "D15",
-      "D17",
-      "D06"
-    ],
-    "rank_pembimbing_asli": 9
-  },
-  {
-    "model": "BM25",
-    "query": "PERANCANGAN VIDEO MEDIA INTERAKTIF PROFIL RESTORAN PAGI SORE SAHARJO BERBASIS MOTION GRAPHIC",
-    "pembimbing_asli": [
       "D19"
     ],
     "top3": [
-      "D17",
-      "D20",
-      "D15"
+      "D10",
+      "D14",
+      "D11"
     ],
     "rank_pembimbing_asli": 12
   },
   {
-    "model": "BM25",
-    "query": "ANALISIS PERBANDINGAN PREDIKSI PENYAKIT DIABETES MENGGUNAKAN ALGORITMA LOGISTIC REGRESSION DAN K-NEAREST NEIGHBOR",
+    "model": "TF-IDF",
+    "query": "PENGEMBANGAN E-BOOK INTERAKTIF MATA PELAJARAN DASAR DESAIN KOMUNIKASI VISUAL KELAS X SMK PERGURUAN “CIKINI” JAKARTA MENGGUNAKAN PENDEKATAN STEAM",
     "pembimbing_asli": [
-      "D01",
-      "D08"
+      "D10"
     ],
     "top3": [
-      "D11",
-      "D05",
-      "D07"
+      "D19",
+      "D07",
+      "D18"
     ],
     "rank_pembimbing_asli": 4
   },
   {
-    "model": "BM25",
-    "query": "ANALISIS SISTEM MANAJEMEN LAYANAN TEKNOLOGI INFORMASI BERDASARKAN FRAMEWORK ITIL V3 (STUDI KASUS: PUSAT TEKNOLOGI INFORMASI DAN KOMUNIKASI UNIVERSITAS NEGERI JAKARTA)",
+    "model": "TF-IDF",
+    "query": "PERANCANGAN USER INTERFACE DAN USER EXPERIENCE MODUL PERSEDIAAN PADA SISTEM INFORMASI SAKU PLUS UNJ DENGAN METODE FIVE PLANES",
     "pembimbing_asli": [
-      "D05",
-      "D18"
+      "D04",
+      "D23"
     ],
     "top3": [
-      "D09",
-      "D02",
+      "D16",
+      "D07",
       "D06"
     ],
-    "rank_pembimbing_asli": 10
+    "rank_pembimbing_asli": 4
   },
   {
-    "model": "BM25",
-    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN E-BOOK INTERAKTIF UNTUK MATERI NIRMANA KELAS X SMKN 9 KOTA BEKASI MENGGUNAKAN MODEL FOUR-D",
+    "model": "TF-IDF",
+    "query": "PENGEMBANGAN FRONT-END MODUL GUDANG PADA SISTEM INFORMASI SAKU PLUS UNIVERSITAS NEGERI JAKARTA DENGAN METODE PROTOTYPING",
     "pembimbing_asli": [
-      "D13",
-      "D19"
+      "D04",
+      "D22"
     ],
     "top3": [
-      "D17",
-      "D09",
-      "D06"
+      "D19",
+      "D16",
+      "D07"
     ],
-    "rank_pembimbing_asli": 8
+    "rank_pembimbing_asli": 7
   },
   {
-    "model": "BM25",
-    "query": "PENERAPAN RFID PADA SISTEM PRESENSI SISWA BERBASIS INTERNET OF THINGS DI SMP ISLAM AL-AZHAR BUKITTINGGI",
+    "model": "TF-IDF",
+    "query": "ANALISIS PERBANDINGAN PREDIKSI PENYAKIT DIABETES MENGGUNAKAN ALGORITMA LOGISTIC REGRESSION DAN K-NEAREST NEIGHBOR",
     "pembimbing_asli": [
-      "D11",
-      "D14"
-    ],
-    "top3": [
-      "D08",
-      "D06",
-      "D03"
-    ],
-    "rank_pembimbing_asli": 8
-  },
-  {
-    "model": "BM25",
-    "query": "PENGEMBANGAN APLIKASI MOBILE SISTEM INFORMASI SEKOLAH SMP LABSCHOOL JAKARTA DENGAN METODE AGILE ITERATIVE AND INCREMENTAL DEVELOPMENT",
-    "pembimbing_asli": [
-      "D19"
-    ],
-    "top3": [
-      "D06",
-      "D08",
+      "D01",
       "D09"
+    ],
+    "top3": [
+      "D12",
+      "D21",
+      "D06"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "TF-IDF",
+    "query": "PERANCANGAN VIDEO PEMBELAJARAN MATA PELAJARAN TEKNIK AUDIO VIDEO KELAS XII SMK PENJURUSAN MULTIMEDIA DENGAN MENERAPKAN METODE LUTHER-SUTOPO",
+    "pembimbing_asli": [
+      "D22"
+    ],
+    "top3": [
+      "D19",
+      "D10",
+      "D23"
+    ],
+    "rank_pembimbing_asli": 13
+  },
+  {
+    "model": "TF-IDF",
+    "query": "PERBANDINGAN METODE RANDOM FOREST DAN EXTREME GRADIENT BOOSTING (XBGBOOST) PADA KLASIFIKASI TINGKAT PENGANGGURAN TERBUKA (TPT) DI INDONESIA",
+    "pembimbing_asli": [
+      "D06",
+      "D12"
+    ],
+    "top3": [
+      "D13",
+      "D01",
+      "D15"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "TF-IDF",
+    "query": "ANALISIS PERBANDINGAN ALGORITMA LINEAR REGRESSION, RANDOM FOREST, DAN XGBOOST UNTUK MEMPREDIKSI ANGKA PARTISIPASI SEKOLAH (APS) DI INDONESIA",
+    "pembimbing_asli": [
+      "D01",
+      "D12"
+    ],
+    "top3": [
+      "D15",
+      "D21",
+      "D13"
     ],
     "rank_pembimbing_asli": 6
   },
   {
-    "model": "BM25",
-    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN INTERAKTIF BERBASIS E-MODULE UNTUK MATERI AUDIO PADA MATA KULIAH SISTEM MULTIMEDIA LANJUT DENGAN METODE FOUR-D",
+    "model": "TF-IDF",
+    "query": "Prediksi Stok Obat Menggunakan Algoritma Linear Regresi Berganda di Rumah Sakit Ibu dan Anak Citra Insani",
     "pembimbing_asli": [
-      "D13",
-      "D15"
+      "D06",
+      "D09"
     ],
     "top3": [
-      "D17",
-      "D09",
-      "D20"
+      "D21",
+      "D19",
+      "D08"
     ],
     "rank_pembimbing_asli": 4
   },
   {
-    "model": "BM25",
-    "query": "RANCANG BANGUN COMPANY PROFILE BERBASIS WEB PT. CIA DWI FORTUNA DENGAN METODE PROTOTYPING",
+    "model": "TF-IDF",
+    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN E-BOOK INTERAKTIF UNTUK MATERI NIRMANA KELAS X SMKN 9 KOTA BEKASI MENGGUNAKAN MODEL FOUR-D",
     "pembimbing_asli": [
-      "D17",
-      "D19"
+      "D14",
+      "D22"
     ],
     "top3": [
-      "D07",
-      "D09",
-      "D15"
+      "D19",
+      "D18",
+      "D10"
     ],
-    "rank_pembimbing_asli": 8
+    "rank_pembimbing_asli": 7
   },
   {
-    "model": "BM25",
-    "query": "IMPLEMENTASI RETRIEVAL AUGMENTED GENERATION BERBASIS FRAMEWORK LANGCHAIN PADA CHATBOT WHATSAPP UNTUK AKSES TANYA JAWAB DOKUMEN INTERNAL PERUSAHAAN DI PT. PERKEBUNAN NUSANTARA I (PERSERO)",
+    "model": "TF-IDF",
+    "query": "PENERAPAN RFID PADA SISTEM PRESENSI SISWA BERBASIS INTERNET OF THINGS DI SMP ISLAM AL-AZHAR BUKITTINGGI",
+    "pembimbing_asli": [
+      "D12",
+      "D15"
+    ],
+    "top3": [
+      "D03",
+      "D07",
+      "D09"
+    ],
+    "rank_pembimbing_asli": 10
+  },
+  {
+    "model": "TF-IDF",
+    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN INTERAKTIF BERBASIS E-MODULE UNTUK MATERI AUDIO PADA MATA KULIAH SISTEM MULTIMEDIA LANJUT DENGAN METODE FOUR-D",
     "pembimbing_asli": [
       "D14",
       "D16"
     ],
     "top3": [
-      "D12",
-      "D08",
-      "D05"
+      "D19",
+      "D18",
+      "D23"
     ],
     "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "TF-IDF",
+    "query": "RANCANG BANGUN WEBSITE PENJUALAN PRODUK UMKM KADAI 89 BERBASIS WEB DENGAN INTE-GRASI PAYMENT GATEWAY MENGGUNAKAN METODE WATERFALL",
+    "pembimbing_asli": [
+      "D22"
+    ],
+    "top3": [
+      "D11",
+      "D19",
+      "D06"
+    ],
+    "rank_pembimbing_asli": 14
+  },
+  {
+    "model": "TF-IDF",
+    "query": "RANCANG BANGUN COMPANY PROFILE BERBASIS WEB PT. CIA DWI FORTUNA DENGAN METODE PROTOTYPING",
+    "pembimbing_asli": [
+      "D19",
+      "D22"
+    ],
+    "top3": [
+      "D16",
+      "D08",
+      "D10"
+    ],
+    "rank_pembimbing_asli": 10
+  },
+  {
+    "model": "TF-IDF",
+    "query": "EVALUASI KEPUASAN PENGGUNA SISTEM SMARTESCHOOL DI SMKN 40 JAKARTA DENGAN MENGGUNAKAN METODE END USER COMPUTING SATISFACTION",
+    "pembimbing_asli": [
+      "D19",
+      "D23"
+    ],
+    "top3": [
+      "D07",
+      "D02",
+      "D01"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "BM25",
+    "query": "COGNITIVE WALKTHROUGH PADA ANTARMUKA PENGGUNA PLATFORM PEMESANAN VENDOR WEDDING",
+    "pembimbing_asli": [
+      "D16"
+    ],
+    "top3": [
+      "D07",
+      "D06",
+      "D04"
+    ],
+    "rank_pembimbing_asli": 8
+  },
+  {
+    "model": "BM25",
+    "query": "PENGEMBANGAN VIDEO MEDIA PEMBELAJARAN PADA MATA PELAJARAN MATEMATIKA MATERI TRIGONOMETRI SMK NEGERI 7 JAKARTA MENGGUNAKAN METODE FUN LEARNING DENGAN TIKTOK",
+    "pembimbing_asli": [
+      "D08",
+      "D23"
+    ],
+    "top3": [
+      "D09",
+      "D10",
+      "D19"
+    ],
+    "rank_pembimbing_asli": 6
+  },
+  {
+    "model": "BM25",
+    "query": "RANCANG BANGUN WEBSITE LDK SALIM UNJ DENGAN FRAMEWORK LARAVEL",
+    "pembimbing_asli": [
+      "D09",
+      "D16"
+    ],
+    "top3": [
+      "D02",
+      "D10",
+      "D07"
+    ],
+    "rank_pembimbing_asli": 10
+  },
+  {
+    "model": "BM25",
+    "query": "PENGEMBANGAN APLIKASI PENCARIAN CAPTION FOTO BERBASIS KONTEN MENGGUNAKAN TEKNIK IMAGE MATCHING DAN GOOGLE CLOUD VISION PADA PLATFORM ANDROID",
+    "pembimbing_asli": [
+      "D02",
+      "D19"
+    ],
+    "top3": [
+      "D10",
+      "D11",
+      "D08"
+    ],
+    "rank_pembimbing_asli": 12
+  },
+  {
+    "model": "BM25",
+    "query": "PERANCANGAN USER INTERFACE DAN USER EXPERIENCE MODUL PERSEDIAAN PADA SISTEM INFORMASI SAKU PLUS UNJ DENGAN METODE FIVE PLANES",
+    "pembimbing_asli": [
+      "D04",
+      "D23"
+    ],
+    "top3": [
+      "D16",
+      "D07",
+      "D08"
+    ],
+    "rank_pembimbing_asli": 6
+  },
+  {
+    "model": "BM25",
+    "query": "PENGEMBANGAN FRONT-END MODUL GUDANG PADA SISTEM INFORMASI SAKU PLUS UNIVERSITAS NEGERI JAKARTA DENGAN METODE PROTOTYPING",
+    "pembimbing_asli": [
+      "D04",
+      "D22"
+    ],
+    "top3": [
+      "D16",
+      "D10",
+      "D19"
+    ],
+    "rank_pembimbing_asli": 6
+  },
+  {
+    "model": "BM25",
+    "query": "ANALISIS PERBANDINGAN PREDIKSI PENYAKIT DIABETES MENGGUNAKAN ALGORITMA LOGISTIC REGRESSION DAN K-NEAREST NEIGHBOR",
+    "pembimbing_asli": [
+      "D01",
+      "D09"
+    ],
+    "top3": [
+      "D12",
+      "D21",
+      "D06"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "BM25",
+    "query": "PERANCANGAN VIDEO PEMBELAJARAN MATA PELAJARAN TEKNIK AUDIO VIDEO KELAS XII SMK PENJURUSAN MULTIMEDIA DENGAN MENERAPKAN METODE LUTHER-SUTOPO",
+    "pembimbing_asli": [
+      "D22"
+    ],
+    "top3": [
+      "D10",
+      "D19",
+      "D16"
+    ],
+    "rank_pembimbing_asli": 14
+  },
+  {
+    "model": "BM25",
+    "query": "PERBANDINGAN METODE RANDOM FOREST DAN EXTREME GRADIENT BOOSTING (XBGBOOST) PADA KLASIFIKASI TINGKAT PENGANGGURAN TERBUKA (TPT) DI INDONESIA",
+    "pembimbing_asli": [
+      "D06",
+      "D12"
+    ],
+    "top3": [
+      "D13",
+      "D01",
+      "D21"
+    ],
+    "rank_pembimbing_asli": 4
+  },
+  {
+    "model": "BM25",
+    "query": "Prediksi Stok Obat Menggunakan Algoritma Linear Regresi Berganda di Rumah Sakit Ibu dan Anak Citra Insani",
+    "pembimbing_asli": [
+      "D06",
+      "D09"
+    ],
+    "top3": [
+      "D21",
+      "D08",
+      "D12"
+    ],
+    "rank_pembimbing_asli": 5
+  },
+  {
+    "model": "BM25",
+    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN E-BOOK INTERAKTIF UNTUK MATERI NIRMANA KELAS X SMKN 9 KOTA BEKASI MENGGUNAKAN MODEL FOUR-D",
+    "pembimbing_asli": [
+      "D14",
+      "D22"
+    ],
+    "top3": [
+      "D19",
+      "D10",
+      "D07"
+    ],
+    "rank_pembimbing_asli": 7
+  },
+  {
+    "model": "BM25",
+    "query": "PENERAPAN RFID PADA SISTEM PRESENSI SISWA BERBASIS INTERNET OF THINGS DI SMP ISLAM AL-AZHAR BUKITTINGGI",
+    "pembimbing_asli": [
+      "D12",
+      "D15"
+    ],
+    "top3": [
+      "D09",
+      "D07",
+      "D03"
+    ],
+    "rank_pembimbing_asli": 9
+  },
+  {
+    "model": "BM25",
+    "query": "PENGEMBANGAN MEDIA PEMBELAJARAN INTERAKTIF BERBASIS E-MODULE UNTUK MATERI AUDIO PADA MATA KULIAH SISTEM MULTIMEDIA LANJUT DENGAN METODE FOUR-D",
+    "pembimbing_asli": [
+      "D14",
+      "D16"
+    ],
+    "top3": [
+      "D19",
+      "D10",
+      "D23"
+    ],
+    "rank_pembimbing_asli": 4
+  },
+  {
+    "model": "BM25",
+    "query": "RANCANG BANGUN WEBSITE PENJUALAN PRODUK UMKM KADAI 89 BERBASIS WEB DENGAN INTE-GRASI PAYMENT GATEWAY MENGGUNAKAN METODE WATERFALL",
+    "pembimbing_asli": [
+      "D22"
+    ],
+    "top3": [
+      "D11",
+      "D12",
+      "D10"
+    ],
+    "rank_pembimbing_asli": 15
+  },
+  {
+    "model": "BM25",
+    "query": "RANCANG BANGUN COMPANY PROFILE BERBASIS WEB PT. CIA DWI FORTUNA DENGAN METODE PROTOTYPING",
+    "pembimbing_asli": [
+      "D19",
+      "D22"
+    ],
+    "top3": [
+      "D08",
+      "D10",
+      "D16"
+    ],
+    "rank_pembimbing_asli": 10
+  },
+  {
+    "model": "BM25",
+    "query": "EVALUASI KEPUASAN PENGGUNA SISTEM SMARTESCHOOL DI SMKN 40 JAKARTA DENGAN MENGGUNAKAN METODE END USER COMPUTING SATISFACTION",
+    "pembimbing_asli": [
+      "D19",
+      "D23"
+    ],
+    "top3": [
+      "D02",
+      "D01",
+      "D07"
+    ],
+    "rank_pembimbing_asli": 7
   }
 ]
