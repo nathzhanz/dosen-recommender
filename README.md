@@ -8,10 +8,10 @@ penjelasan (kata kunci yang cocok dan judul pendukung), serta beban bimbingan do
 ## Anggota dan pembagian tugas
 | Anggota | Peran | Bagian utama |
 |---|---|---|
-| Maxwell | Data engineer & pre-processing | Pengumpulan data, anonimisasi, `src/preprocess.py`, `data_collection/` |
-| Thariq | Core IR developer | `src/index.py`, `src/ranking.py`, `src/recommender.py` |
-| Naila | Evaluation & testing | Query uji + penilaian relevansi, `src/evaluate.py`, failure analysis |
-| Razan | Full-stack & integrasi | `app.py`, README, integrasi repo, video demo, laporan akhir |
+| Muhammad Naufal Athallah | Data engineer & pre-processing | Pengumpulan data, anonimisasi, `src/preprocess.py`, `data_collection/` |
+| Naufal Hibatullah Thariq | Core IR developer | `src/index.py`, `src/ranking.py`, `src/recommender.py` |
+| Naila Shabrina | Evaluation & testing | Query uji + penilaian relevansi, `src/evaluate.py`, failure analysis |
+| Muhammad Naufal Razan | Full-stack & integrasi | `app.py`, README, integrasi repo, video demo, laporan akhir |
 
 Setiap anggota wajib memahami dan mampu menjelaskan seluruh kode.
 
@@ -55,7 +55,7 @@ dan centang **Bandingkan profil berdampingan** untuk melihat dua daftar sekaligu
 **Sumber (informasi publik):**
 - Skripsi dan nama pembimbing: Repositori UNJ (repository.unj.ac.id), program studi S1 Sistem dan Teknologi Informasi dan S1 PTIK.
 - Publikasi dosen: Google Scholar, Garuda (garuda.kemdiktisaintek.go.id), dan SINTA (sinta.kemdiktisaintek.go.id).
-- Tanggal pengambilan: **9-13 November 2026**.
+- Tanggal pengambilan: **11-12 November 2026**.
 
 **Etika dan privasi:** nama mahasiswa dan NIM **tidak** disimpan. Data hanya memuat judul skripsi, tahun, dan nama dosen (informasi publik).
 Pengambilan data dari repositori memakai jeda antar-permintaan dan mengikuti robots.txt. Cara membuat ulang data: `data_collection/README.md`.
