@@ -23,7 +23,9 @@ with st.sidebar:
     st.header("Pengaturan")
     model = st.radio("Model ranking", ["BM25", "TF-IDF"])
     profile = st.radio("Representasi profil dosen", ["gabungan", "publikasi"],
-                       help="gabungan = judul publikasi + skripsi bimbingan")
+                       help="gabungan = judul publikasi + skripsi bimbingan (diabaikan saat mode perbandingan)")
+    bandingkan = st.checkbox("Bandingkan profil berdampingan (publikasi vs gabungan)",
+                             help="Menampilkan dua daftar sekaligus untuk query yang sama")
     k = st.slider("Jumlah dosen ditampilkan", 1, 10, 3)
     load_w = st.slider("Pertimbangan beban bimbingan", 0.0, 1.0, 0.0, 0.05,
                        help="0 = abaikan beban; makin besar, dosen dengan kuota penuh makin turun")
@@ -31,9 +33,9 @@ with st.sidebar:
 query = st.text_area("Ide judul atau topik skripsi", height=90,
                      placeholder="contoh: klasifikasi citra penyakit daun menggunakan CNN")
 
-if st.button("Cari dosen", type="primary") and query.strip():
-    rec = get_recommender(profile)
-    results = rec.recommend(query, model=model, k=k, load_weight=load_w)
+
+def tampilkan(rec, results, query):
+    """Menampilkan daftar dosen beserta skor, beban, kata kunci, dan judul pendukung."""
     if not results:
         st.warning("Tidak ada dosen yang cocok. Coba kata kunci lain.")
     for i, r in enumerate(results, 1):
@@ -47,3 +49,18 @@ if st.button("Cari dosen", type="primary") and query.strip():
             st.write("**Kata kunci yang cocok:** " + (", ".join(ex["kata_kunci"]) or "-"))
             for it in ex["judul_pendukung"]:
                 st.write(f"- ({it['sumber']}) {it['judul']}")
+
+
+if st.button("Cari dosen", type="primary") and query.strip():
+    if bandingkan:
+        st.info("Mode perbandingan: hasil yang sama dihitung dari dua representasi profil dosen (model: "
+                f"{model}).")
+        kiri, kanan = st.columns(2)
+        for kolom, nama_profil in ((kiri, "publikasi"), (kanan, "gabungan")):
+            with kolom:
+                st.header("Profil: " + ("publikasi saja" if nama_profil == "publikasi" else "gabungan"))
+                rec = get_recommender(nama_profil)
+                tampilkan(rec, rec.recommend(query, model=model, k=k, load_weight=load_w), query)
+    else:
+        rec = get_recommender(profile)
+        tampilkan(rec, rec.recommend(query, model=model, k=k, load_weight=load_w), query)
