@@ -49,7 +49,7 @@ dan centang **Bandingkan profil berdampingan** untuk melihat dua daftar sekaligu
 | Berkas | Isi | Kolom |
 |---|---|---|
 | `data/lecturers.csv` | 23 dosen pembimbing | `id, nama, bidang, kuota` |
-| `data/publications.csv` | 327 judul publikasi dosen | `lecturer_id, judul, tahun` |
+| `data/publications.csv` | 326 judul publikasi dosen | `lecturer_id, judul, tahun` |
 | `data/theses.csv` | 592 baris skripsi-pembimbing (310 skripsi) | `thesis_id, judul, lecturer_id, tahun` |
 
 **Sumber (informasi publik):**
@@ -73,10 +73,10 @@ Query: **30 judul** yang disusun dan dinilai secara manual (`eval/query_uji_manu
 
 | Profil | Model | Success@1 | Success@3 | MRR |
 |---|---|---|---|---|
-| publikasi | TF-IDF | 0.167 | 0.400 | 0.317 |
-| publikasi | BM25 | 0.167 | 0.367 | 0.306 |
+| publikasi | TF-IDF | 0.167 | 0.400 | 0.323 |
+| publikasi | BM25 | 0.133 | 0.400 | 0.292 |
 | gabungan | TF-IDF | 0.233 | 0.400 | 0.401 |
-| gabungan | BM25 | **0.333** | **0.467** | **0.478** |
+| gabungan | BM25 | **0.300** | **0.467** | **0.461** |
 
 Profil gabungan dengan BM25 paling baik. Hasil lengkap: `eval/hasil_evaluasi.csv`; query yang gagal: `eval/query_gagal.json`.
 
