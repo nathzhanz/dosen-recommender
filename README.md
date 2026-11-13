@@ -87,7 +87,6 @@ Profil gabungan dengan BM25 paling baik. Hasil lengkap: `eval/hasil_evaluasi.csv
 - Kuota bimbingan adalah asumsi.
 
 ## Penggunaan alat AI
-Kerangka kode awal (pre-processing, inverted index, ranking, evaluasi, antarmuka) dan sebagian skrip pengumpulan data
-dibuat dengan bantuan **Claude (Anthropic)**. Kelompok memeriksa, menjalankan, dan menyesuaikan kodenya, serta
-mengumpulkan dan memverifikasi data secara manual. Setiap anggota wajib memahami dan mampu menjelaskan seluruh kode.
-Penggunaan AI juga dicantumkan di laporan.
+Kelompok menggunakan Claude (Anthropic) untuk membantu pengerjaan proyek baik struktur kode maupun query, serta menulis skrip pengumpulan data. Seluruh keluaran AI ditinjau, diuji, dan disesuaikan oleh anggota kelompok. Setiap anggota akan tetap memahami dan wajib bisa menjelaskan seluruh kode dan hasil saat presentasi.
+Data skripsi dikumpulkan dari halaman publik repositori UNJ untuk prodi Sistem dan Teknologi Informasi dan Pendidikan Teknik Informatika dan Komputer, periode 2024-2026 menggunakan script python lewat google collab. Pengambilan data mematuhi robots.txt situs bersangkutan, dengan jeda 1,5 detik antar permintaan agar tidak memberatkan server. Data yang disimpan hanya judul, tahun, dan nama dosen pembimbing. Data mahasiswa tidak disimpan maupun ditampilkan. Nama dosen pembimbing merupakan informasi publik yang tercantum di repositori. Sumber dan tanggal pengambilan data dicatat dalam README. Untuk data publikasi dosen diambil dari SINTA dan GARUDA secara manual. 
+
