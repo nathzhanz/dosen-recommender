@@ -116,5 +116,6 @@ elif st.session_state["dicari"] and query:
         st.markdown(
             "- **Skor**: makin tinggi makin cocok. Skor hanya bisa dibandingkan dalam satu pencarian.\n"
             "- **Beban bimbingan**: jumlah skripsi yang pernah dibimbing dibanding kuota (asumsi).\n"
-            "- **Kata kunci**: kata dari query yang paling berkontribusi pada skor dosen tersebut.\n"
+            "- **Kata kunci**: kata dari query yang paling berkontribusi pada skor dosen tersebut "
+            "(selalu dihitung dari kontribusi BM25, juga saat model TF-IDF dipilih).\n"
             "- **Judul pendukung**: judul publikasi atau skripsi dosen yang memuat kata dari query.")
