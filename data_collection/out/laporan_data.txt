@@ -1,35 +1,35 @@
 PEMBIMBING DAN JUMLAH PUBLIKASI (SINTA)
                              key                             nama  skripsi  publikasi  dipakai
-      muchammad ficky duskarnaen       Muchammad Ficky Duskarnaen       90         40     True
-              ressy dwitias sari               Ressy Dwitias Sari       71         17     True
-         via tuhamah fauziastuti          Via Tuhamah Fauziastuti       68          1     True
-                murien nugraheni                 Murien Nugraheni       67         20     True
-                 hamidillah ajie                  Hamidillah Ajie       57         16     True
-                          widodo                           Widodo       43         85     True
-               irma permata sari                Irma Permata Sari       42         17     True
+      muchammad ficky duskarnaen       Muchammad Ficky Duskarnaen       90         15     True
+              ressy dwitias sari               Ressy Dwitias Sari       71         15     True
+         via tuhamah fauziastuti          Via Tuhamah Fauziastuti       68          4     True
+                murien nugraheni                 Murien Nugraheni       67         24     True
+                 hamidillah ajie                  Hamidillah Ajie       57         21     True
+                          widodo                           Widodo       43         18     True
+               irma permata sari                Irma Permata Sari       42         20     True
            ze ferdi fauzan putra          Z.E. Ferdi Fauzan Putra       27         13     True
-                     fuad mumtas                      Fuad Mumtas       21          2     True
-                       ali idrus                        Ali Idrus       18         11     True
-                 lipur sugiyanta                  Lipur Sugiyanta       17         20     True
-                        nur elah                         Nur Elah       13          4     True
-                 diat nurhidayat                  Diat Nurhidayat       12         12     True
-           bambang prasetya adhi            Bambang Prasetya Adhi       11         19     True
-          wiranti kusuma hapsari           Wiranti Kusuma Hapsari       11          8     True
-               neng ayu herawati                Neng Ayu Herawati       10         12     True
-         prasetyo wibowo yunanto          Prasetyo Wibowo Yunanto        4          2     True
+                     fuad mumtas                      Fuad Mumtas       21         13     True
+                       ali idrus                        Ali Idrus       18         17     True
+                 lipur sugiyanta                  Lipur Sugiyanta       17         25     True
+                        nur elah                         Nur Elah       13          7     True
+                 diat nurhidayat                  Diat Nurhidayat       12         13     True
+           bambang prasetya adhi            Bambang Prasetya Adhi       11         20     True
+          wiranti kusuma hapsari           Wiranti Kusuma Hapsari       11          9     True
+               neng ayu herawati                Neng Ayu Herawati       10         14     True
+         prasetyo wibowo yunanto          Prasetyo Wibowo Yunanto        4         13     True
                vannisa irma dewi                Vannisa Irma Dewi        3          1     True
-                      deni utama                       Deni Utama        2          2     True
-            vina ardelia effendy             Vina Ardelia Effendy        2          4     True
+                      deni utama                       Deni Utama        2         15     True
+            vina ardelia effendy             Vina Ardelia Effendy        2         12     True
                fitrah izul falaq                Fitrah Izul Falaq        1          8     True
-muhammad ridho kurniawan pratama Muhammad Ridho Kurniawan Pratama        1         10     True
-                     shindy arti                      Shindy Arti        1          3     True
+muhammad ridho kurniawan pratama Muhammad Ridho Kurniawan Pratama        1         12     True
+                     shindy arti                      Shindy Arti        1          6     True
 
 Pembimbing TANPA/KURANG publikasi (< 1) -> perlu dilengkapi dari SINTA atau dibuang:
 (tidak ada)
 
-Nama di sinta_publications.csv yang tidak cocok dengan pembimbing mana pun (cek ejaan): (tidak ada)
+Nama di sinta_publications.csv yang bukan pembimbing skripsi mana pun (ikut sebagai dosen tanpa riwayat bimbingan, beban 0; periksa ejaan bila tidak diharapkan): rauhil fahmi
 
 Skripsi dipakai: 310 dari 310 (baris skripsi-pembimbing: 592); dibuang karena SEMUA pembimbingnya tanpa publikasi/tidak terbaca: 0
 
-HASIL: 23 dosen, 327 publikasi, 592 skripsi
-Skripsi per dosen: D01=18, D02=11, D03=2, D04=12, D05=1, D06=21, D07=57, D08=42, D09=17, D10=90, D11=1, D12=67, D13=10, D14=13, D15=4, D16=71, D17=1, D18=3, D19=68, D20=2, D21=43, D22=11, D23=27
+HASIL: 24 dosen, 328 publikasi, 592 skripsi
+Skripsi per dosen: D01=18, D02=11, D03=2, D04=12, D05=1, D06=21, D07=57, D08=42, D09=17, D10=90, D11=1, D12=67, D13=10, D14=13, D15=4, D17=71, D18=1, D19=3, D20=68, D21=2, D22=43, D23=11, D24=27

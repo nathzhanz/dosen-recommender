@@ -49,6 +49,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--min-pub", type=int, default=1, help="minimal publikasi per dosen (default 1)")
     ap.add_argument("--kuota", type=int, default=20, help="kuota bimbingan default (ASUMSI, ganti bila ada data)")
+    ap.add_argument("--hanya-pembimbing", action="store_true",
+                    help="hanya dosen yang pernah membimbing skripsi (default: dosen berpublikasi tanpa skripsi ikut, beban 0)")
     ap.add_argument("--dry-run", action="store_true", help="hanya laporan, jangan menimpa data/*.csv")
     args = ap.parse_args()
 
@@ -86,8 +88,8 @@ def main():
     laporan.append(f"\nPembimbing TANPA/KURANG publikasi (< {args.min_pub}) -> perlu dilengkapi dari SINTA atau dibuang:\n" +
                    (missing[["nama", "skripsi", "publikasi"]].to_string(index=False) if len(missing) else "(tidak ada)"))
     unmatched = sorted(set(pub["key"]) - set(adv_all["key"]))
-    laporan.append("\nNama di sinta_publications.csv yang tidak cocok dengan pembimbing mana pun (cek ejaan): " +
-                   (", ".join(unmatched) if unmatched else "(tidak ada)"))
+    laporan.append("\nNama di sinta_publications.csv yang bukan pembimbing skripsi mana pun (ikut sebagai dosen tanpa riwayat bimbingan, "
+                   "beban 0; periksa ejaan bila tidak diharapkan): " + (", ".join(unmatched) if unmatched else "(tidak ada)"))
 
     # pakai pembimbing utama (urutan 1) kalau layak; kalau tidak, pembimbing layak lainnya
     keep = tr[tr["ada_publikasi"]].sort_values(["eprint_id", "urutan"]).drop_duplicates(["eprint_id", "key"])
@@ -95,7 +97,7 @@ def main():
     laporan.append(f"\nSkripsi dipakai: {keep['eprint_id'].nunique()} dari {len(th)} (baris skripsi-pembimbing: {len(keep)}); "
                    f"dibuang karena SEMUA pembimbingnya tanpa publikasi/tidak terbaca: {len(dropped)}")
 
-    lec_keys = sorted(set(keep["key"]))
+    lec_keys = sorted(set(keep["key"]) if args.hanya_pembimbing else set(keep["key"]) | eligible)
     key_to_id = {k: f"D{i+1:02d}" for i, k in enumerate(lec_keys)}
     name_of = dict(zip(adv_all["key"], adv_all["nama"]))
     name_of.update(dict(zip(pub["key"], pub["nama_dosen"])))  # nama dari SINTA (lengkap dengan gelar) diutamakan
