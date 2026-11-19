@@ -48,13 +48,13 @@ dan centang **Bandingkan profil berdampingan** untuk melihat dua daftar sekaligu
 ## Data
 | Berkas | Isi | Kolom |
 |---|---|---|
-| `data/lecturers.csv` | 23 dosen pembimbing | `id, nama, bidang, kuota` |
-| `data/publications.csv` | 326 judul publikasi dosen | `lecturer_id, judul, tahun` |
+| `data/lecturers.csv` | 24 dosen pembimbing | `id, nama, bidang, kuota` |
+| `data/publications.csv` | 328 judul publikasi dosen | `lecturer_id, judul, tahun` |
 | `data/theses.csv` | 592 baris skripsi-pembimbing (310 skripsi) | `thesis_id, judul, lecturer_id, tahun` |
 
 **Sumber (informasi publik):**
 - Skripsi dan nama pembimbing: Repositori UNJ (repository.unj.ac.id), program studi S1 Sistem dan Teknologi Informasi dan S1 PTIK.
-- Publikasi dosen: Google Scholar, Garuda (garuda.kemdiktisaintek.go.id), dan SINTA (sinta.kemdiktisaintek.go.id).
+- Publikasi dosen: Scopus, Google Scholar, Garuda (garuda.kemdiktisaintek.go.id), dan SINTA (sinta.kemdiktisaintek.go.id). Data publikasi diperbarui **19 November 2026**: judul di luar keilmuan komputer dibuang manual, judul ganda per dosen dihapus, dan satu dosen (Rauhil Fahmi, belum punya skripsi di repositori, beban 0) ditambahkan. Berkas sumber: `data_collection/out/Dataset_Publikasi_Dosen.xlsx`.
 - Tanggal pengambilan: **11-12 November 2026**.
 
 **Etika dan privasi:** nama mahasiswa dan NIM **tidak** disimpan. Data hanya memuat judul skripsi, tahun, dan nama dosen (informasi publik).
@@ -73,15 +73,15 @@ Query: **30 judul** yang disusun dan dinilai secara manual (`eval/query_uji_manu
 
 | Profil | Model | Success@1 | Success@3 | MRR |
 |---|---|---|---|---|
-| publikasi | TF-IDF | 0.167 | 0.400 | 0.323 |
-| publikasi | BM25 | 0.133 | 0.400 | 0.292 |
-| gabungan | TF-IDF | 0.233 | 0.400 | 0.401 |
-| gabungan | BM25 | **0.300** | **0.467** | **0.461** |
+| publikasi | TF-IDF | 0.100 | 0.400 | 0.314 |
+| publikasi | BM25 | 0.133 | 0.433 | 0.330 |
+| gabungan | TF-IDF | 0.200 | 0.400 | 0.402 |
+| gabungan | BM25 | **0.333** | **0.467** | **0.481** |
 
 Profil gabungan dengan BM25 paling baik. Hasil lengkap: `eval/hasil_evaluasi.csv`; query yang gagal: `eval/query_gagal.json`.
 
 ## Keterbatasan
-- Dataset kecil (23 dosen); hasil evaluasi belum mewakili seluruh dosen.
+- Dataset kecil (24 dosen); hasil evaluasi belum mewakili seluruh dosen.
 - Dosen dengan profil besar cenderung mendominasi karena cocok pada kata umum.
 - Tidak ada penanganan sinonim atau terjemahan Indonesia-Inggris.
 - Kuota bimbingan adalah asumsi.
