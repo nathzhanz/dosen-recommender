@@ -1,24 +1,25 @@
 id,nama,bidang,kuota
-D01,"Ali Idrus, S.Kom., M.Kom.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D01,Ali Idrus,"Prodi S1 PTIK, S1 Sistem dan TI",20
 D02,Bambang Prasetya Adhi,Prodi S1 PTIK,20
-D03,"Deni Utama, S.T., M.T.I.",Prodi S1 Sistem dan TI,20
+D03,Deni Utama,Prodi S1 Sistem dan TI,20
 D04,Diat Nurhidayat,Prodi S1 PTIK,20
 D05,Fitrah Izul Falaq,Prodi S1 PTIK,20
-D06,"Fuad Mumtas, S.Kom., M.T.I.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D06,Fuad Mumtas,"Prodi S1 PTIK, S1 Sistem dan TI",20
 D07,Hamidillah Ajie,Prodi S1 PTIK,20
-D08,"Irma Permata Sari, S.Pd., M.Eng.","Prodi S1 PTIK, S1 Sistem dan TI",20
-D09,"Lipur Sugiyanta, S.T., M.Kom., Ph.D.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D08,Irma Permata Sari,"Prodi S1 PTIK, S1 Sistem dan TI",20
+D09,Lipur Sugiyanta,"Prodi S1 PTIK, S1 Sistem dan TI",20
 D10,Muchammad Ficky Duskarnaen,Prodi S1 PTIK,20
-D11,"Muhammad Ridho Kurniawan Pratama, M.T.I.",Prodi S1 Sistem dan TI,20
-D12,"Murien Nugraheni, S.T., M.Cs.","Prodi S1 PTIK, S1 Sistem dan TI",20
+D11,Muhammad Ridho Kurniawan Pratama,Prodi S1 Sistem dan TI,20
+D12,Murien Nugraheni,"Prodi S1 PTIK, S1 Sistem dan TI",20
 D13,Neng Ayu Herawati,Prodi S1 PTIK,20
 D14,Nur Elah,Prodi S1 PTIK,20
-D15,"Prasetyo Wibowo Yunanto, S.T., M.Eng.",Prodi S1 Sistem dan TI,20
-D16,Ressy Dwitias Sari,Prodi S1 PTIK,20
-D17,"Shindy Arti, S.Pd., M.Eng.",Prodi S1 Sistem dan TI,20
-D18,Vannisa Irma Dewi,Prodi S1 PTIK,20
-D19,Via Tuhamah Fauziastuti,Prodi S1 PTIK,20
-D20,"Vina Ardelia Effendy, S.T., M.T.I.",Prodi S1 Sistem dan TI,20
-D21,Widodo,"Prodi S1 PTIK, S1 Sistem dan TI",20
-D22,Wiranti Kusuma Hapsari,Prodi S1 PTIK,20
-D23,Z.E. Ferdi Fauzan Putra,Prodi S1 PTIK,20
+D15,Prasetyo Wibowo Yunanto,Prodi S1 Sistem dan TI,20
+D16,Rauhil Fahmi,-,20
+D17,Ressy Dwitias Sari,Prodi S1 PTIK,20
+D18,Shindy Arti,Prodi S1 Sistem dan TI,20
+D19,Vannisa Irma Dewi,Prodi S1 PTIK,20
+D20,Via Tuhamah Fauziastuti,Prodi S1 PTIK,20
+D21,Vina Ardelia Effendy,Prodi S1 Sistem dan TI,20
+D22,Widodo,"Prodi S1 PTIK, S1 Sistem dan TI",20
+D23,Wiranti Kusuma Hapsari,Prodi S1 PTIK,20
+D24,Z.E. Ferdi Fauzan Putra,Prodi S1 PTIK,20
