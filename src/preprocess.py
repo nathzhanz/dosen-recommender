@@ -1,5 +1,6 @@
 """Pre-processing teks bahasa Indonesia: normalisasi, tokenisasi, stopword, stemming (Sastrawi)."""
 import re
+import unicodedata
 from functools import lru_cache
 
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -16,8 +17,9 @@ STOPWORDS = set(StopWordRemoverFactory().get_stop_words()) | {
 
 
 def normalize(text: str) -> str:
-    """Lowercase, hapus URL/angka/tanda baca, rapikan spasi."""
-    text = str(text).lower()
+    """Lowercase, buang aksen (naïve -> naive), hapus URL/angka/tanda baca, rapikan spasi."""
+    text = unicodedata.normalize("NFKD", str(text).lower())
+    text = "".join(c for c in text if not unicodedata.combining(c))
     text = re.sub(r"https?://\S+", " ", text)
     text = re.sub(r"[^a-z\s]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
