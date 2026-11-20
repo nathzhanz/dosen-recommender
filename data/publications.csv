@@ -1,329 +1,329 @@
 lecturer_id,judul,tahun
-D01,Virtual reality application development blindspot knowledge as digital learning of driving safety in the industrial era 4.0,2024.0
-D01,Making a simulation model of the loading and unloading process of goods at the port based on virtual reality as a case based learning media,2024.0
-D01,Sistem Monitoring Jaringan PT. Exhibition Network Indonesia DenganThe Dude Berbasis Mikrotik,2016.0
-D01,Augmented reality for children as a learning media for introduction to historical site,2024.0
-D01,Comparison of wireless sensor network low-energy adaptive clustering hierarchy (LEACH) and hybrid energy-efficient distributed (HEED) protocols in parking area monitoring systems,2024.0
-D01,Prototype development of virtual reality applications as interactive learning media in computer network infrastructure courses,2024.0
-D01,Sentiment analysis of state officials news on online media based on public opinion using naive bayes classifier algorithm and particle swarm optimization,2018.0
-D01,Distance Analysis Measuring for Clustering using K-Means and Davies Bouldin Index Algorithm,2022.0
-D01,Neural Network Back-Propagation Method as Forecasting Technique,2022.0
-D01,PERANCANGAN OWNCLOUD STORAGE SERVER BERBASIS UBUNTU 20.04 PADA PT. HARRISMA GLOBALTECHNOLOGIES JAKARTA,2020.0
-D01,"Analisis perbandingan kinerja layanan cloud computing pada aplikasi Dropbox, Google Drive, dan OneDrive dengan metode Boehm’s quality model",2023.0
-D01,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026.0
-D01,Tracer study information system for higher education,2021.0
-D01,DESIGN AND IMPLEMENTATION OF FREERADIUS AS A USER MANAGER ON THE MIKROTIK HOTSPOT NETWORK AT PT INDOTRUCK UTAMA USING THE NDLC (NETWORK DEVELOPMENT LIFE CYCLE) METHOD,2023.0
-D01,Designing High Availability Cluster Using Server Virtualization on Cloud Storage Services,2021.0
-D01,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023.0
-D01,Perancangan Web Filter Berbasis Ubuntu 20.04 pada PT. Exhibition Network Indonesia,2021.0
-D13,"A Context-Sensitive Roadmap Framework for Digital Government Transformation in Resource-Constrained Regions: The Case of Mimika Regency, Indonesia",2025.0
-D13,A Hybrid Predictive Model as an Emission Reduction Strategy Based on Power Plants’ Fuel Consumption Activity,2024.0
-D13,"Sentiment Analysis of Game Reviews on STEAM using BERT, BiLSTM, and CRF",2023.0
-D13,Development of an Intelligent Carbon Emission Monitoring Methodology to Support Carbon Trading with A Design Thinking Approach: A Case Study in PT Paiton Energy,2023.0
-D13,Perancangan Framework Tata Kelola Data Sebagai Strategi Peningkatan Kualitas Informasi Penyuluhan di Sektor Kelautan dan Perikanan,2026.0
-D13,"Analisis Komparatif Algoritma LSTM, GRU, BiGRU, dan BiLSTM Untuk Prediksi Degradasi Bearing Turbin PLTU",2025.0
-D13,A Machine Learning-Based Early Warning System for Electricity Outage Due to Extreme Weather,2025.0
-D13,Data Governance Design for Optimization of Hospital Management Information System (SIM-RS) at ABC Regional Hospital,2025.0
-D13,Retrieval-Augmented Generation (RAG) Chatbot for Handling Customer Complaints in the Energy Sector,2025.0
-D13,Sistem Rekomendasi Lokasi Optimal dan Potensi Penghematan Energi Pemasangan PLTS Atap Berbasis AI di Pulau Jawa,2025.0
-D13,Analisis Usability E-Modul Pencemaran Lingkungan Menggunakan Metode System Usability Scale (SUS),2025.0
-D13,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024.0
-D13,Indonesian Batik Classification Using ResNet-50 and DenseNet-201 with Transfer Learning,2026.0
-D13,Agentic AI untuk Tata Kelola Data Kearsipan Konsisten dan Terstruktur,2025.0
-D02,"The Integration of Local Cultural Character and Digital Transformation of Micro, Small, and Medium Enterprises for Sustainable Marine Tourism in Panggang Island, Seribu Islands",2026.0
-D02,Sentiment Analysis of Thesis Policy by Instagram Users Using Logistic Regression,2024.0
-D02,E-assessment of literacy movement using labanotation in dance learning for junior high school students,2020.0
-D02,Graph model of reporting engine performance results in the business intelligence process,2020.0
-D02,"Performance comparison of reporting engine birt, jasper report, and crystal report on the process business intelligence",2019.0
-D02,Development of biography information system based on semantic web using biography ontology: Requirement phase,2019.0
-D02,Java character recognition using Hopfield network,2018.0
-D02,Indonesian Traditional Weapons Recognition Using Backpropagation,2018.0
-D02,PENERAPAN ALGORITMA SUPPORT VECTOR MACHINE UNTUK MENDETEKSI EMOSI DARI TEKS BAHASA INDONESIA,2024.0
-D02,PERANCANGAN DAN IMPLEMENTASI ANTARMUKA PENGGUNA SISTEM INFORMASI BERBASIS WEBSITE SMK NEGERI 6 JAKARTA DENGAN METODE PROTOTYPE,2024.0
-D02,MEDIA PEMBELAJARAN SUBNET CONQUEROR DENGAN KONSEP GAMIFIKASI PADA SISWA SMK BERBASIS METODE LUTHER-SUTOPO,2024.0
-D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ARCHITECTURE FRAMEWORK(FEAF) PADA STANDAR PENILAIAN PENDIDIKAN DI SMK KARYA GUNA,2023.0
-D02,KLASIFIKASI GENRE MUSIK MENGGUNAKAN ALGORITMA NAIVE BAYES CLASSIFIER UNTUK LAYANAN STREAMING YOUTUBE,2023.0
-D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR SARANA DAN PRASARANA DI SMK KARYA GUNA JAKARTA,2023.0
-D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FAEF) DALAM STANDAR PEMBIAYAAN PENDIDIKAN DI SMK KARYA GUNA JAKARTA,2023.0
-D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR PENDIDIK DAN TENAGA KEPENDIDIKAN DI SMK KARYA GUNA JAKARTA,2022.0
-D02,PENGEMBANGAN BACK-END SISTEM MANAJEMEN HUBUNGAN PELANGGAN BERBASIS WEBSITE CV TRITEK SOLUTION DENGAN METODE WATERFALL,2025.0
-D02,PROSES ASSOCIATION RULE UNTUK MENGETAHUI KECENDERUNGAN BELANJA PADA KOPMA UNJ MENGGUNAKAN ALGORITMA APRIORI DAN ECLAT,2022.0
-D02,SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENERIMAAN ANGGOTA BARU BPRS ERAFM-UNJ DENGAN MODEL FUZZY MULTI ATTRIBUTE DECISION MAKING (FMADM) MENGGUNAKAN METODE SIMPLE ADDICTIVE WEIGHTING (SAW),2022.0
-D02,Kinerja Algoritma Canny untuk Mendeteksi Tepi dalam Mengidentifikasi Tulisan pada Citra Digital Meme,2019.0
-D23,ApoLink: Terhubung Langsung dengan Apoteker untuk Mendapatkan Layanan Kesehatan Terbaik,2024.0
-D23,"GDSS UNTUK PEMILIHAN ORGANISASI MAHASISWA MENGGUNAKAN AHP, VIKOR, DAN COPELAND SCORE",2023.0
-D23,Pengenalan Data Mining,2023.0
-D23,Pelatihan Pembuatan Media Pembelajaran dengan Menggunakan Fitur Canva,2023.0
-D23,SISTEM PREDIKSI HUJAN MENGGUNAKAN NAIVE BAYES,2022.0
-D23,PENGEMBANGAN SISTEM PENDUKUNG KEPUTUSAN DENGAN METODE WEIGHTED PRODUCT UNTUK PEMILIHAN LEMBAGA BIMBINGAN BELAJAR DI PURWOKERTO,2016.0
-D23,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026.0
-D23,Logika Digital & Algoritma Dunia Nyata: Menyelami Inti Ilmu Komputer,2025.0
-D23,Sistem Pendukung Pengambilan Keputusan Berbasis Komputasi: Konsep dan Studi Kasus,2024.0
-D04,The influence of engineering students numerical reasoning on the academic achievement of Computer Numerical Control (CNC) course,2019.0
-D04,Campus network Throughput improvement through metric modification of OSPF routing mechanism,2019.0
-D04,IMPLEMENTASI METODE VISUAL DATA MINING DAN REGRESI LINEAR SEDERHANA DALAM VISUAL ANALITIK DATA PENGADAAN PT. AZIMA INTI SEJATI,2025.0
-D04,EVALUASI SISTEM INFORMASI ADMINISTRASI KEUANGAN (SAKU) UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN HOT-FIT MODEL,2025.0
-D04,Optimization of Information and Communication Technology: Digital Innovation for Sustainable Agriculture,2024.0
-D04,PERANCANGAN REKOMENDASI KRITERIA PADA STANDAR ISI DI DALAM STANDAR NASIONAL PENDIDIKAN MENGGUNAKAN METODE FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) DI SMK KARYA EKOPIN JAKARTA,2024.0
-D04,USABILITY TESTING PADA APLIKASI PEMESANAN MAKANAN BERBASIS ANDROID PADA KEDAI KOPI PERIANG,2024.0
-D04,"EVALUASI SISTEM INFORMASI PEMINJAMAN TEMPAT DAN KENDARAAN UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE HUMAN, ORGANIZATION, AND TECHNOLOGY (HOT)-FIT",2023.0
-D04,PENGEMBANGAN APLIKASI ANDROID UNTUK PEMBELAJARAN PNEUMATIK,2018.0
-D04,PERANCANGAN E-COMMERCE BERBASIS WEBSITE PADA TOKO REIMA COLLECTION,2023.0
-D04,Development of Web-based Information System for Universitas Negeri Jakarta,2019.0
-D04,EFEKTIVITAS E-LEARNING BERBASIS MOODLE DI SMK KARYA GUNA KELAS XI TKJ II MATERI AJAR PRAKTIK JARINGAN KOMPUTER,2020.0
-D04,"Optimalisasi Teknologi Informasi dan Komunikasi dalam Penyuluhan Budidaya Jamur Tiram di Desa Sukajaya, Ciamis: Inovasi Digital Untuk Pertanian Berkelanjutan",2024.0
-D14,Pemrograman Berorientasi Objek dalam Java: Panduan Lengkap,2025.0
-D14,Pelatihan Pemeliharaan Jaringan Komputer Dan Wireless Di Sekolah Di Wilayah Desa Muara Gembong Kecamatan Muara Gembong,2025.0
-D14,Pengantar Pemrograman dalam Teknologi Informasi,2025.0
-D14,Implementasi Metode Analytical Hierarchy Process (AHP) pada Rancang Bangun Sistem Pendukung Keputusan Pemilihan Karyawan Terbaik Pada PT XYZ,2025.0
-D14,Instrumen Penilaian Psikomotorik Berbasis Taksonomi Dave untuk Praktik Konfigurasi Web Server CLI,2026.0
-D14,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026.0
-D14,Rekayasa Perangkat Lunak: Dasar-dasar dan Konsep,2025.0
-D24,Augmented reality for children as a learning media for introduction to historical site,2024.0
-D24,Prototype development of virtual reality applications as interactive learning media in computer network infrastructure courses,2024.0
-D24,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023.0
-D24,Character building model in extracurricular activities using simulation games for elementary school students,2020.0
-D24,The development of character education model using stop motion animation for elementary school students in Indonesia,2020.0
-D24,Front-End Development on A Web-Based Teaching Material Repository System at SMK Diponegoro 1 Jakarta,2024.0
-D24,"IMPLEMENTASI SISTEM PENDETEKSI BANJIR UNTUK MASYARAKAT JATINEGARA KAUM, PULO GADUNG, JAKARTA",2022.0
-D24,Designing A User Interface and User Experience from Piring Makanku Application by Using Figma Application for Teens,2021.0
-D24,PENGEMBANGAN MEDIA PEMBELAJARAN TILAWATIL QURAN BERBASIS VIDEO DENGAN MENERAPKAN CURVE AUDIO TRACKING,2021.0
-D24,PENGEMBANGAN APLIKASI M-COMMERCE PADA TOKO OPTIK MENGGUNAKAN ANDROID STUDIO,2020.0
-D24,EVALUASI KESUKSESAN SISTEM INFORMASI PENMABA UNJ JALUR MANDIRI BERBASIS WEB MENGGUNAKAN METODE DELONE DAN MCLEAN,2025.0
-D24,ANALISIS PENGALAMAN PENGGUNA MELALUI UNMODERATED REMOTE USABILITY TESTING PADA PLATFORM E-LABS UNTUK MENDUKUNG KEGIATAN BELAJAR SISWA SELAMA PANDEMI COVID-19,2024.0
-D24,PERANCANGAN E-COMMERCE BERBASIS WEBSITE PADA TOKO REIMA COLLECTION,2018.0
-D07,Augmented reality for children as a learning media for introduction to historical site,2024.0
-D07,Graph model of reporting engine performance results in the business intelligence process,2020.0
-D07,A framework of human emotion recognition using extreme learning machine,2015.0
-D07,"Development of Academic Information System Mobile Application Prototype at SD Inpres Touiu, Rote",2024.0
-D07,Front-End Development on A Web-Based Teaching Material Repository System at SMK Diponegoro 1 Jakarta,2024.0
-D07,PENGEMBANGAN WEB SERVICE SISTEM PEMBAYARAN MULTIBANK UNIVERSITAS NEGERI JAKARTA,2021.0
-D07,PENGEMBANGAN WEB SERVICE MODUL MAHASISWA PADA SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2021.0
-D07,PERANCANGAN SISTEM E-LEARNING BERBASIS LMS MOODLE PADA MATA KULIAH ALGORITMA DAN PEMROGRAMAN DI PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2021.0
-D07,PERANCANGAN BERBASIS USER EXPERIENCE PADA MODUL ADMIN SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2021.0
-D07,ANALISIS QUALITY OF SERVICE (QOS) PADA JARINGAN INTERNET SMK NEGERI 7 JAKARTA,2020.0
-D07,ANALISIS JARINGAN AKSES INTERNET MENGGUNAKAN MIKROTIK ROUTER OS DI SMK TUNAS HARAPAN DENGAN OPTIMALISASI LOAD BALANCING MENGGUNAKAN PARAMETER QoS (Quality of Service),2020.0
-D07,DESAIN DAN IMPLEMENTASI PADA WIFI PUSTIKOM FREE ACCESS DI PUSAT TEKNOLOGI INFORMASI DAN KOMUNIKASI UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN MIKROTIK DAN WIRESHARK UNTUK ANALISIS TERHADAP SERANGAN PACKET SNIFFING DAN NETCUT,2020.0
-D07,PENERAPAN KONSEP USER EXPERIENCE (UX) PADA DESAIN VISUALISASI DATA MODUL ADMINISTRASI SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2022.0
-D07,DESAIN DAN IMPLEMENTASI MANAGEMENT BANDWIDTH PADA HOTSPOT MIKROTIK DI SMK MUTIARA 17 AGUSTUS BEKASI,2022.0
-D07,PERANCANGAN SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIT UNJ BERBASIS WEBSITE DENGAN PENDEKATAN USER EXPERIENCE,2023.0
-D07,PENGEMBANGAN WEB SERVICE MODUL ADMIN PADA SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIVERSITAS NEGERI JAKARTA,2023.0
-D07,PERBANDINGAN PERINGKASAN MULTI DOKUMEN ILMIAH BERBAHASA INDONESIA MENGGUNAKAN METODE K-MEANS DAN K-NEAREST NEIGHBORS (K-NN),2023.0
-D07,PERBANDINGAN ANALISIS EMOSIONAL PENGGUNA TWITTER PADA PEMINDAHAN IBU KOTA INDONESIA MENGGUNAKAN ALGORITMA NAIVE BAYES DAN SUPPORT VECTOR MACHINE,2022.0
-D07,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024.0
-D07,PERANCANGAN USER EXPERIENCE PADA WEB PEMBELAJARAN BERBASIS KOMIK PADA MATA PELAJARAN BAHASA JEPANG UNTUK PESERTA DIDIK SMAN 110 JAKARTA,2024.0
-D07,PENGEMBANGAN WEB SERVICE SISTEM INFORMASI SKRIPSI DENGAN METODE SCRUM UNTUK PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2024.0
-D20,A review of students’ graduation classification: a comparison of Naive Bayes classifier and K-nearest neighbour,2020.0
-D20,Pembelajaran Interaktif Berbasis Teknologi,2025.0
-D20,Sistem Informasi Manajemen: Konsep dan Implementasi,2025.0
-D20,Transformasi Data dalam Teknologi Informasi,2025.0
-D17,Enhancing Computational Thinking Skills through Markerless Augmented Reality and GPS-Supported Learning in Computer Networking,2026.0
-D17,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023.0
-D17,Testing and development of plastic optical fiber as humidity and temperature sensor,2022.0
-D17,A comparison of classification algorithms for hate speech detection,2020.0
-D17,A review of ip and mac address filtering in wireless network security,2017.0
-D17,Data security system using hybrid cryptosystem RC4A-RSA algorithm,2020.0
-D17,Comparative study of prim and genetic algorithms in minimum spanning tree and travelling salesman problem,2018.0
-D17,Smart Watering System for Aloe Vera,2023.0
-D17,Dempster Shafer for Computer Malfunction Detection System,2023.0
-D17,PENERAPAN METODE FLEX BLENDED LEARNING PADA SMKS IMELDA,2022.0
-D17,The Design of Web-based Thesis Management Information System to Increase the Quality and Efficiency of Guiding Process and Document Management,2022.0
-D17,Penerapan Penyemprot Tanaman Elektrik untuk Lahan Pertanian di Desa Kuta Dame,2021.0
-D17,Implementasi Algoritma Merkle-Hellman Knapsack dalam Penyandian Record Database,2020.0
-D17,Sistem Informasi Penghitungan Gizi Remaja Dengan Metode Harris Benedict Berbasis Website: Ressy Dwitias Sari,2018.0
-D17,Needs Analysis of Learning Media Development Based on Markerless Augmented Reality in Learning Computer Networking,2025.0
-D11,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026.0
-D11,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026.0
-D11,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026.0
-D11,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026.0
-D11,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025.0
-D11,Peningkatan Kapasitas Pemasaran UMKM melalui Kolaborasi PKK dan Pelatihan Pembuatan Konten Digital,2025.0
-D11,Smart city readiness analysis using ministry of communications and informatics smart readiness model: Case study Purworejo Regency,2024.0
-D11,Sentiment analysis of the job creation law on twitter data using support vector machine,2022.0
-D11,Perencanaan Strategis Sistem Informasi Untuk Mendukung Pembangunan Smart City Kabupaten Purworejo,2022.0
-D11,Pengembangan Aplikasi Kontrol Kendali Kemudi Kursi Roda Berbasis Pergerakan Kepala HEMOCS (Head Movement Control System),2018.0
-D11,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026.0
-D11,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025.0
-D16,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025.0
-D16,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026.0
-D16,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026.0
-D16,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026.0
-D16,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026.0
-D16,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025.0
-D16,Mobile health tracker application for children (telehealth): applying soft system methodology for community IT-based project,2022.0
-D16,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026.0
-D16,DESAIN ALGORTIMA ROBOT MOBILE DENGAN DETEKSI OBSTACLE DAN CLIFF BERBASIS SERVO DAN DOUBLE ULTRASONIK,2025.0
-D16,AUDIT KEAMANAN TEKNOLOGI INFORMASI DENGAN NATIONAL INSTITUTE OF STANDARD AND TECHNOLOGY (NIST) 800-30 PADA PD INDAH PERMAI GROUP,2025.0
-D16,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026.0
-D16,Cloud Computing Adoption in Education: A Systematical Literature Review,2025.0
-D16,Lexerning: Web Based E-Learning System for Dyslexic Children,2015.0
-D18,Pemilihan Atribut Evaluasi Kondisi Perkuliahan yang Berpengaruh Terhadap Tingkat Kepuasan Mahasiswa dalam Mengikuti Mata Kuliah,2022.0
-D18,A cardiotocographic classification using feature selection: a comparative study,2021.0
-D18,Research trend of causal machine learning method: A literature review,2020.0
-D18,PENERAPAN FLASK FRAMEWORK UNTUK DEPLOYMENT MODEL MACHINE LEARNING DALAM MENDUKUNG ANALISIS ADAPTASI MAHASISWA PADA PEMBELAJARAN DARING,2025.0
-D18,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026.0
-D18,A machine learning framework for improving classification performance on credit approval,2021.0
-D21,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025.0
-D21,IMPLEMENTASI SAMPAH CERDAS DI UNIVERSITAS: SEBUAH SYSTEMATIC LITERATURE REVIEW,2025.0
-D21,PARADIGMA SISTEM DALAM TATA KELOLA ETIKA DAN INFRASTRUKTUR AI: ANALISIS PERAN SISTEM OPERASI,2025.0
-D21,CRITICAL SUCCESS FACTOR ADOPSI TEKNOLOGI INFORMASI DAN KOMUNIKASI PADA LEMBAGA PEMASYARAKATAN: SEBUAH STUDI KASUS,2024.0
-D21,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026.0
-D21,Manajemen Teknologi Informasi: Strategi dan Implementasi,2025.0
-D21,Smart Waste Management Planning to Support the Implementation of Smart City in the New National Capital City of Indonesia,2023.0
-D21,Perbandingan Algoritma Canny Edge Detection Dan Prewitt Pada Deteksi Stadium Diabetik Retinopati,2021.0
-D21,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026.0
-D21,Data Security in Internet of Things Systems Based on Distributed Blockchain,2025.0
-D21,Internet of Things (IoT): Konsep dan Aplikasi,2025.0
-D21,RANCANG BANGUN MINIATUR ROBOT PEMADAM API STUDI KASUS DI BADAN PENGKAJIAN DAN PENERAPAN TEKNOLOGI (BPPT),2019.0
-D03,"Increasing terminal capacity based on adaptive port planning case study at Cigading Port, Indonesia",2020.0
-D03,Critical Success Factors of Software Projects: The Perspective A Software Company from Indonesia,2020.0
-D03,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025.0
-D03,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026.0
-D03,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026.0
-D03,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026.0
-D03,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026.0
-D03,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026.0
-D03,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025.0
-D03,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026.0
-D03,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026.0
-D03,Aplikasi Pemesanan Makanan Dan Minuman Restaurant Berbasis Client Server Dengan Platform Android Dan Php Menggunakan Metode Centralized Dbms Architecture,2016.0
-D03,Application of design thinking and prototype methods in the design of mobile-based hijab e-commerce applications: Cv ren,2023.0
-D03,Perancangan Topologi Jaringan Sekolah Berbasis VLAN Dengan Implementasi Firewall Dan VPN Menggunakan Cisco Packet Tracer,2026.0
-D03,Multi-Horizon LSTM Forecasting of Indonesian Food Commodity Prices to Support the Free Nutritious Meal (MBG) Program,2026.0
-D15,Prediction of Traffic Congestion Based on Time Series Dataset Number of Vehicles Using Neural Network Algorithm,2024.0
-D15,Development of evaluation results information system learn based on website,2019.0
-D15,Pengujian Performa Jaringan Syaraf Tiruan Backpropagation Pada Model Pengenalan Tanda Tangan,2018.0
-D15,Perancangan Dan Pengembangan Aplikasi Sistem Informasi Monitoring Perkuliahan Dan Kehadiran Mahasiswa Berbasis Web,2017.0
-D15,Pengembangan Aplikasi Ujian Online Berbasis Website pada Mata Pelajaran Sistem Operasi Kelas X TKJ SMK Negeri 7 Jakarta,2018.0
-D15,Pengembangan Game Edukasi Keterampilan Membaca untuk Siswa TK Aisyiah Rawamangun,2019.0
-D15,Analisis Manajemen Bandwidth Hierarchical Token Bucket (HTB) dengan Mikrotik pada Jaringan SMK Negeri 22,2019.0
-D15,Internet of Things of Electronic Seal Base on Gprs Short Message Service and Thingspeak,2019.0
-D15,Pengembangan Game Edukasi Covid-19 Berbasis Android Menggunakan Metode Multimedia Development Life Cycle (MDLC),2024.0
-D15,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025.0
-D15,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026.0
-D15,Development of Web-based Information System for Universitas Negeri Jakarta,2019.0
-D15,Tracer study information system for higher education,2021.0
-D12,"Development of Academic Information System Mobile Application Prototype at SD Inpres Touiu, Rote",2024.0
-D12,Indonesian Fake News Classification Using Transfer Learning in CNN and LSTM,2024.0
-D12,Sentiment Analysis Twitter (X) Users Towards the Boycott of Pro-Israel Brand Using Support Vector Machine Method with SMOTE Approach,2024.0
-D12,Comparative Study of Logistic Regression and K-Nearest Neighbor for Heart Disease Prediction,2024.0
-D12,Sentiment Analysis on Dirty Vote Movie in X (Twitter) Using Convolutional Neural Network,2024.0
-D12,MULTIPLE-CRITERIA DECISION ANALYSIS MENGGUNAKAN COMPOSITE PERFORMANCE INDEX PADA SISTEM PEMILIHAN IP CAMERA,2023.0
-D12,Pengenalan Landmark Pariwisata di Kulon Progo Berbasis Augmented Reality,2023.0
-D12,Expert System for Diagnosing Learning Disorders in Children Using the Dempster-Shafer Theory Approach,2023.0
-D12,ANALISIS USABILITAS WEB SISTEM UANG KULIAH TUNGGAL UNIVERSITAS NEGERI JAKARTA,2023.0
-D12,Pengembangan User Interface Aplikasi Promosi Umkm Kelurahan Bukit Duri Melalui Pendekatan User Experience Dengan Metode Lean Ux Yang Berbasis Android,2023.0
-D12,MULTI-CRITERIA DECISION ANALYSIS USING COMPLEX PROPORTIONAL ASSESSMENTS AND RANK ORDER CENTROID METHODS IN THE SELECTION SYSTEM FOR TUTORING INSTITUTIONS,2023.0
-D12,Sentiment Analysis for Curriculum of Independent Learning Based on Naïve Bayes with Laplace Estimator,2023.0
-D12,Moodle-based Learning Management System Design as a Learning Media at SMKN 40 Jakarta,2023.0
-D12,Sentiment Analysis of Public Opinion on Twitter about the Implementation of the Merdeka Curriculum Using the Support Vector Machine Algorithm,2023.0
-D12,Comparison of Bankruptcy Prediction Models Using Support Vector Machine and Artificial Neural Network,2022.0
-D12,Simple Distribution of Sensitive Values for Multiple Sensitive Attributes in Privacy Preserving Data Publishing to Achieve Anatomy,2021.0
-D12,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2020.0
-D12,PERINGKASAN TEKS BERBAHASA INDONESIA MENGGUNAKAN TEKNIK EKSTRAKSI DENGAN ALGORITMA LATENT SEMANTIC ANALYSIS (LSA) DENGAN VARIASI TF-IDF UNTUK PERINGKASAN SINGLE DOCUMENT,2024.0
-D12,ANALISIS SENTIMEN RANCANGAN UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL/UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL PENGGUNA TWITTER MENGGUNAKAN ALGORITMA NAIVE BAYES CLASSIFIER,2024.0
-D12,TOPIC MODELING DOKUMEN SKRIPSI PRODI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE LATENT DIRICHLET ALLOCATION,2024.0
-D12,ANALISIS SENTIMEN PENGGUNA TWITTER TERHADAP KEBIJAKAN PEMERINTAH DALAM MENANGANI COVID-19 MENGGUNAKAN METODE SUPPORT VECTOR MACHINE DAN NAIVE BAYES DENGAN LAPLACE ESTIMATOR,2025.0
-D12,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025.0
-D12,Pengembangan Sistem Informasi Monitoring Dan Evaluasi Dosen Menggunakan Metode Agile Feature,2024.0
-D12,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023.0
-D10,PENERAPAN KONSEP USER EXPERIENCE (UX) PADA DESAIN VISUALISASI DATA MODUL ADMINISTRASI SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2022.0
-D10,DESAIN DAN IMPLEMENTASI MANAGEMENT BANDWIDTH PADA HOTSPOT MIKROTIK DI SMK MUTIARA 17 AGUSTUS BEKASI,2022.0
-D10,PERANCANGAN SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIT UNJ BERBASIS WEBSITE DENGAN PENDEKATAN USER EXPERIENCE,2023.0
-D10,"Analisis, Perancangan, Dan Implementasi Jaringan Wireless Point To Point Antara Kampus A Dan Kampus B Universitas Negeri Jakarta",2017.0
-D10,Perancangan Dan Implementasi Sistem Keamanan Jaringan Menggunakan Firewall dan Web Proxy Berbasis Mikrotik di SMA Negeri 1 Kota Sukabumi,2018.0
-D10,PENGEMBANGAN BACK-END SISTEM MANAJEMEN HUBUNGAN PELANGGAN BERBASIS WEBSITE CV TRITEK SOLUTION DENGAN METODE WATERFALL,2025.0
-D10,Prototipe Alkohol Detektor Pada Mobil Berbasis SMS GATEWAY dan GPS Sebagai Media Informasi,2016.0
-D10,Monitoring Lalu Lintas Jaringan Demilitarized Zone Universitas Negeri Jakarta Menggunakan Sensor Packet Sniffer Pada PRTG Network Monitor,2017.0
-D10,ANALISIS QUALITY OF SERVICE (QOS) PADA JARINGAN INTERNET SMK NEGERI 7 JAKARTA,2020.0
-D10,ANALISIS JARINGAN AKSES INTERNET MENGGUNAKAN MIKROTIK ROUTER OS DI SMK TUNAS HARAPAN DENGAN OPTIMALISASI LOAD BALANCING MENGGUNAKAN PARAMETER QoS (Quality of Service),2020.0
-D10,Perancangan Dan Implementasi Antarmuka Pengguna Sistem Informasi Berbasis Website Smk Negeri 6 Jakarta Dengan Metode Prototype,2024.0
-D10,"Analisis perbandingan kinerja layanan cloud computing pada aplikasi Dropbox, Google Drive, dan OneDrive dengan metode Boehm’s quality model",2023.0
-D10,DESAIN DAN IMPLEMENTASI PADA WIFI PUSTIKOM FREE ACCESS DI PUSAT TEKNOLOGI INFORMASI DAN KOMUNIKASI UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN MIKROTIK DAN WIRESHARK UNTUK ANALISIS TERHADAP SERANGAN PACKET SNIFFING DAN NETCUT,2020.0
-D10,Pengembangan Situs Sistem Pendaftaran Online Peserta Ujian Mandiri Universitas Negeri Jakarta,2018.0
-D10,Instrumen Penilaian Psikomotorik Berbasis Taksonomi Dave untuk Praktik Konfigurasi Web Server CLI,2026.0
-D22,Pengembangan Situs Sistem Pendaftaran Online Peserta Ujian Mandiri Universitas Negeri Jakarta,2018.0
-D22,PENGEMBANGAN WEB SERVICE MODUL ADMIN PADA SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIVERSITAS NEGERI JAKARTA,2023.0
-D22,PERBANDINGAN PERINGKASAN MULTI DOKUMEN ILMIAH BERBAHASA INDONESIA MENGGUNAKAN METODE K-MEANS DAN K-NEAREST NEIGHBORS (K-NN),2023.0
-D22,PERBANDINGAN ANALISIS EMOSIONAL PENGGUNA TWITTER PADA PEMINDAHAN IBU KOTA INDONESIA MENGGUNAKAN ALGORITMA NAIVE BAYES DAN SUPPORT VECTOR MACHINE,2023.0
-D22,PROSES ASSOCIATION RULE UNTUK MENGETAHUI KECENDERUNGAN BELANJA PADA KOPMA UNJ MENGGUNAKAN ALGORITMA APRIORI DAN ECLAT,2022.0
-D22,SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENERIMAAN ANGGOTA BARU BPRS ERAFM-UNJ DENGAN MODEL FUZZY MULTI ATTRIBUTE DECISION MAKING (FMADM) MENGGUNAKAN METODE SIMPLE ADDICTIVE WEIGHTING (SAW),2022.0
-D22,KLASIFIKASI GENRE MUSIK MENGGUNAKAN ALGORITMA NAIVE BAYES CLASSIFIER UNTUK LAYANAN STREAMING YOUTUBE,2023.0
-D22,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR SARANA DAN PRASARANA DI SMK KARYA GUNA JAKARTA,2023.0
-D22,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024.0
-D22,PERANCANGAN USER EXPERIENCE PADA WEB PEMBELAJARAN BERBASIS KOMIK PADA MATA PELAJARAN BAHASA JEPANG UNTUK PESERTA DIDIK SMAN 110 JAKARTA,2024.0
-D22,PENERAPAN ALGORITMA SUPPORT VECTOR MACHINE UNTUK MENDETEKSI EMOSI DARI TEKS BAHASA INDONESIA,2024.0
-D22,PERINGKASAN TEKS BERBAHASA INDONESIA MENGGUNAKAN TEKNIK EKSTRAKSI DENGAN ALGORITMA LATENT SEMANTIC ANALYSIS (LSA) DENGAN VARIASI TF-IDF UNTUK PERINGKASAN SINGLE DOCUMENT,2024.0
-D22,ANALISIS SENTIMEN RANCANGAN UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL/UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL PENGGUNA TWITTER MENGGUNAKAN ALGORITMA NAIVE BAYES CLASSIFIER,2024.0
-D22,PENGEMBANGAN WEB SERVICE SISTEM INFORMASI SKRIPSI DENGAN METODE SCRUM UNTUK PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2024.0
-D22,ANALISIS SENTIMEN PENGGUNA TWITTER TERHADAP KEBIJAKAN PEMERINTAH DALAM MENANGANI COVID-19 MENGGUNAKAN METODE SUPPORT VECTOR MACHINE DAN NAIVE BAYES DENGAN LAPLACE ESTIMATOR,2025.0
-D22,Pengujian Performa Jaringan Syaraf Tiruan Backpropagation Pada Model Pengenalan Tanda Tangan,2018.0
-D22,inerja Algoritma Canny untuk Mendeteksi Tepi dalam Mengidentifikasi Tulisan pada Citra Digital Meme,2019.0
-D22,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2021.0
-D09,Comparison of wireless sensor network low-energy adaptive clustering hierarchy (LEACH) and hybrid energy-efficient distributed (HEED) protocols in parking area monitoring systems,2024.0
-D09,Neural Network Back-Propagation Method as Forecasting Technique,2022.0
-D09,ANALISIS LAYANAN INFRASTRUKTUR JARINGAN VLAN (VIRTUAL LOCAL AREA NETWORK) DI SMK KARYAGUNA,2020.0
-D09,ANALISIS KINERJA PARAMETER THROUGHPUT DAN DELAY AKSES INETRNET DI SMK KARYAGUNA JAKARTA SELATAN,2020.0
-D09,THE CONTEXT OF FIELDWORK PRACTICES IN COMPUTER AND NETWORKING ENGINEERING MAJOR AT VOCATIONAL SCHOOL,2020.0
-D09,Blended Learning Implementation and Impact in Vocational Schools,2020.0
-D09,Analisis Manajemen Bandwidth Hierarchical Token Bucket (HTB) dengan Mikrotik pada Jaringan SMK Negeri 22,2019.0
-D09,Vocational Curriculum Implementation of the Three Years Program of Electronics Engineering,2019.0
-D09,Optimization design of CAI for computer programming language to improve student's competence,2019.0
-D09,Campus network Throughput improvement through metric modification of OSPF routing mechanism,2019.0
-D09,Sistem Informasi Nilai Siswa Berbasis Web di SMK Karya Guna Jakarta,2018.0
-D09,ANALISIS KINERJA JARINGAN KOMUNIKASI DATA VSAT IP (VERY SMALL APERTEUR TERMINAL) PADA REMOTE MOBILE KU-BAND,2021.0
-D09,Representation of media literacy in the dimensions of social life in Indonesia,2018.0
-D09,Adjusted Framework of M-Learning in Blended Learning System for Mathematics Study Field of Junior High School Level VII,2018.0
-D09,Measurement of Usability for Multimedia Interactive Learning Based on Website in Mathematics for SMK,2018.0
-D09,Transmission behavior in ad hoc network minimizing the number of hops and maintaining connectivity of mobile terminals which move from one to the others,2011.0
-D09,Agent based approach of routing protocol minimizing the number of hops and maintaining connectivity of mobile terminals which move one area to the other,2010.0
-D09,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026.0
-D09,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026.0
-D09,Perancangan Topologi Jaringan Sekolah Berbasis VLAN Dengan Implementasi Firewall Dan VPN Menggunakan Cisco Packet Tracer,2026.0
-D09,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023.0
-D09,Energy Consumption in Ad Hoc Network With Agents Minimizing the Number of Hops and Maintaining Connectivity of Mobile Terminals Which Move from One to the Others,2011.0
-D09,Kualitas Jaringan Pada Jaringan Virtual Local Area Network (VLAN) Yang Menerapkan Linux Terminal Server Project (LTSP),2017.0
-D09,Utilization of Data Oriented Technology Stack in Unity Game Engine and Unity's Classic Technology to Develop Danmaku Game,2023.0
-D09,Analisis Perbandingan Antara Colocation Server Dengan Amazon Web Services (Cloud) Untuk Usabilitas Portal swa. co. id Di PT. Swa Media Bisnis,2017.0
-D06,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023.0
-D06,Analisis Metode Benefit Cost Analysis (BCA) Dalam Audit Sistem Informasi PT. Najwa Bintang Anugerah,2021.0
-D06,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026.0
-D06,Pengembangan Sistem Informasi Monitoring Dan Evaluasi Dosen Menggunakan Metode Agile Feature,2024.0
-D06,ANALISIS IT STRATEGIC PLANNING (ITSP) PADA PT. X DENGAN PENDEKATAN MODEL SWOT,2014.0
-D06,EVALUASI KESUKSESAN SISTEM INFORMASI PENMABA UNJ JALUR MANDIRI BERBASIS WEB MENGGUNAKAN METODE DELONE DAN MCLEAN,2025.0
-D06,IMPLEMENTASI METODE VISUAL DATA MINING DAN REGRESI LINEAR SEDERHANA DALAM VISUAL ANALITIK DATA PENGADAAN PT. AZIMA INTI SEJATI,2025.0
-D06,ANALISIS PENGALAMAN PENGGUNA MELALUI UNMODERATED REMOTE USABILITY TESTING PADA PLATFORM E-LABS UNTUK MENDUKUNG KEGIATAN BELAJAR SISWA SELAMA PANDEMI COVID-19,2024.0
-D06,"EVALUASI SISTEM INFORMASI PEMINJAMAN TEMPAT DAN KENDARAAN UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE HUMAN, ORGANIZATION, AND TECHNOLOGY (HOT)-FIT",2023.0
-D06,Perancangan Software Requirements Specification (SRS) Sistem Informasi Banking Kartu Kredit,2013.0
-D06,Perancangan Dan Analisa WAN Dengan Menggunakan Teknologi Frame relay: Studi Kasus Pada PT. XYZ,2013.0
-D06,Analisis dan Perancangan Migrasi Jaringan dari IP4 Ke IP6 Pada PT. XYZ,2014.0
-D06,ANALISIS DAN PERANCANGAN TEKNOLOGI FRAME RELAY DENGAN MENGGUNAKAN ENCHANCED INTERIOR GATEWAY ROUTING PROTOCOL (EIGRP): STUDI KASUS PADA PT. XYZ,2015.0
-D08,The impact of slack bus fitness on the performance of South Sulawesi electrical systems at peak load conditions,2024.0
-D08,Closer Look at Image Classification for Indonesian Sign Language with Few-Shot Learning Using Matching Network Approach,2023.0
-D08,Deteksi Penyakit Pada Daun Padi Berbasis Pengolahan Citra Menggunakan Metode Convolutional Neural Network (CNN),2023.0
-D08,The effect of baseline establishment on energy savings estimate in green building certification,2023.0
-D08,Sentiment Analysis of Youtube Data: A Survey for Subang Small and Medium-sized Enterprises,2023.0
-D08,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023.0
-D08,Statistical and machine learning application approach to predict mass flowrate,2023.0
-D08,PERANCANGAN ANTARMUKA SISTEM KOLABORASI GURU MATA PELAJARAN TKI JAKARTA TIMUR BERBASIS USER EXPERIENCE DENGAN METODE LEAN UX,2022.0
-D08,PENGEMBANGAN ADVERGAME BERBASIS VISUAL NOVEL SEBAGAI MEDIA PROMOSI DIGITAL PRODI PTIK UNIVERSITAS NEGERI JAKARTA,2022.0
-D08,PELATIHAN PENGGUNAAN APLIKASI MARKET PLACE BAGI GURU DI SMPN 1 KARANG BAHAGIA KABUPATEN BEKASI,2022.0
-D08,Implementasi Data Science dalam Ritel Online: Analisis Customer Retention dan Clustering Customer dengan Metode K-Means,2021.0
-D08,Simple Distribution of Sensitive Values for Multiple Sensitive Attributes in Privacy Preserving Data Publishing to Achieve Anatomy,2021.0
-D08,Telemedicine-equipped android interface-based heart rate monitoring,2021.0
-D08,Electronic Snellen Chart with Bluetooth Connection and Smartphone App,2020.0
-D08,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2020.0
-D08,Design of Portable Weather Station Using MQTT Protocol,2019.0
-D08,Mobile augmented reality using cloud database for interactive museum guiding system,2019.0
-D08,DeepPhishing: stepping up phishing detection using generative round network,2025.0
-D08,Modern privacy-preserving and security schemes in social networks: a review,2021.0
-D08,Robust Breast cancer Detection using Faster R-CNN Algoritma,2022.0
-D19,Analisis Usability E-Modul Pencemaran Lingkungan Menggunakan Metode System Usability Scale (SUS),
-D05,PENGEMBANGAN RETRIEVAL-AUGMENTED GENERATION (RAG) CHATBOT MENGGUNAKAN METODE DESIGN THINKING UNTUK MENDUKUNG PERSONALIZED LEARNING,2025.0
-D05,The victory of culture games (VOC-Games): Math-based learning media 3D and augmented reality as a conservation culture,2018.0
-D05,Pengembangan Knowledge Mangement System (KMS) menggunakan Agentic AI dengan Pendekatan Vibe Coding,2025.0
-D05,Strategy for Implementing Artificial Intelligence in Revitalizing Vocational Education in Indonesia: Analysis of Challenges and Opportunities,2023.0
-D05,Pengembangan sumber belajar terbuka berbasis web pada pelatihan kader pergerakan mahasiswa islam Indonesia di Komisariat Sunan Kalijaga Kota Malang,2020.0
-D05,Tingkat Akurasi Model AI ChatGPT dalam menyelesaikan Evaluasi Pembelajaran pada Massive Open Online Course,2025.0
-D05,The Development of A Web-Based Independent Learning Platform using SECI Model,2023.0
-D05,Pengembangan desain sistem knowledge management berbasis web sebagai suplemen pembelajaran mandiri pasca pelatihan,
+D01,Virtual reality application development blindspot knowledge as digital learning of driving safety in the industrial era 4.0,2024
+D01,Making a simulation model of the loading and unloading process of goods at the port based on virtual reality as a case based learning media,2024
+D01,Sistem Monitoring Jaringan PT. Exhibition Network Indonesia DenganThe Dude Berbasis Mikrotik,2016
+D01,Augmented reality for children as a learning media for introduction to historical site,2024
+D01,Comparison of wireless sensor network low-energy adaptive clustering hierarchy (LEACH) and hybrid energy-efficient distributed (HEED) protocols in parking area monitoring systems,2024
+D01,Prototype development of virtual reality applications as interactive learning media in computer network infrastructure courses,2024
+D01,Sentiment analysis of state officials news on online media based on public opinion using naive bayes classifier algorithm and particle swarm optimization,2018
+D01,Distance Analysis Measuring for Clustering using K-Means and Davies Bouldin Index Algorithm,2022
+D01,Neural Network Back-Propagation Method as Forecasting Technique,2022
+D01,PERANCANGAN OWNCLOUD STORAGE SERVER BERBASIS UBUNTU 20.04 PADA PT. HARRISMA GLOBALTECHNOLOGIES JAKARTA,2020
+D01,"Analisis perbandingan kinerja layanan cloud computing pada aplikasi Dropbox, Google Drive, dan OneDrive dengan metode Boehm’s quality model",2023
+D01,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026
+D01,Tracer study information system for higher education,2021
+D01,DESIGN AND IMPLEMENTATION OF FREERADIUS AS A USER MANAGER ON THE MIKROTIK HOTSPOT NETWORK AT PT INDOTRUCK UTAMA USING THE NDLC (NETWORK DEVELOPMENT LIFE CYCLE) METHOD,2023
+D01,Designing High Availability Cluster Using Server Virtualization on Cloud Storage Services,2021
+D01,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023
+D01,Perancangan Web Filter Berbasis Ubuntu 20.04 pada PT. Exhibition Network Indonesia,2021
+D05,PENGEMBANGAN RETRIEVAL-AUGMENTED GENERATION (RAG) CHATBOT MENGGUNAKAN METODE DESIGN THINKING UNTUK MENDUKUNG PERSONALIZED LEARNING,2025
+D05,The victory of culture games (VOC-Games): Math-based learning media 3D and augmented reality as a conservation culture,2018
+D05,Pengembangan Knowledge Mangement System (KMS) menggunakan Agentic AI dengan Pendekatan Vibe Coding,2025
+D05,Strategy for Implementing Artificial Intelligence in Revitalizing Vocational Education in Indonesia: Analysis of Challenges and Opportunities,2023
+D05,Tingkat Akurasi Model AI ChatGPT dalam menyelesaikan Evaluasi Pembelajaran pada Massive Open Online Course,2025
+D05,The Development of A Web-Based Independent Learning Platform using SECI Model,2023
+D05,Pengembangan sumber belajar terbuka berbasis web pada pelatihan kader pergerakan mahasiswa islam Indonesia di Komisariat Sunan Kalijaga Kota Malang,2020
+D05,Pengembangan desain sistem knowledge management berbasis web sebagai suplemen pembelajaran mandiri pasca pelatihan,2023
+D19,ANALISIS USABILITY E-MODUL PENCEMARAN LINGKUNGAN MENGGUNAKAN METODE SYSTEM USABILITY SCALE (SUS),2025
+D13,"A Context-Sensitive Roadmap Framework for Digital Government Transformation in Resource-Constrained Regions: The Case of Mimika Regency, Indonesia",2025
+D13,A Hybrid Predictive Model as an Emission Reduction Strategy Based on Power Plants’ Fuel Consumption Activity,2024
+D13,"Sentiment Analysis of Game Reviews on STEAM using BERT, BiLSTM, and CRF",2023
+D13,Development of an Intelligent Carbon Emission Monitoring Methodology to Support Carbon Trading with A Design Thinking Approach: A Case Study in PT Paiton Energy,2023
+D13,Perancangan Framework Tata Kelola Data Sebagai Strategi Peningkatan Kualitas Informasi Penyuluhan di Sektor Kelautan dan Perikanan,2026
+D13,"Analisis Komparatif Algoritma LSTM, GRU, BiGRU, dan BiLSTM Untuk Prediksi Degradasi Bearing Turbin PLTU",2025
+D13,A Machine Learning-Based Early Warning System for Electricity Outage Due to Extreme Weather,2025
+D13,Data Governance Design for Optimization of Hospital Management Information System (SIM-RS) at ABC Regional Hospital,2025
+D13,Retrieval-Augmented Generation (RAG) Chatbot for Handling Customer Complaints in the Energy Sector,2025
+D13,Sistem Rekomendasi Lokasi Optimal dan Potensi Penghematan Energi Pemasangan PLTS Atap Berbasis AI di Pulau Jawa,2025
+D13,Analisis Usability E-Modul Pencemaran Lingkungan Menggunakan Metode System Usability Scale (SUS),2025
+D13,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024
+D13,Indonesian Batik Classification Using ResNet-50 and DenseNet-201 with Transfer Learning,2026
+D13,Agentic AI untuk Tata Kelola Data Kearsipan Konsisten dan Terstruktur,2025
+D02,"The Integration of Local Cultural Character and Digital Transformation of Micro, Small, and Medium Enterprises for Sustainable Marine Tourism in Panggang Island, Seribu Islands",2026
+D02,Sentiment Analysis of Thesis Policy by Instagram Users Using Logistic Regression,2024
+D02,E-assessment of literacy movement using labanotation in dance learning for junior high school students,2020
+D02,Graph model of reporting engine performance results in the business intelligence process,2020
+D02,"Performance comparison of reporting engine birt, jasper report, and crystal report on the process business intelligence",2019
+D02,Development of biography information system based on semantic web using biography ontology: Requirement phase,2019
+D02,Java character recognition using Hopfield network,2018
+D02,Indonesian Traditional Weapons Recognition Using Backpropagation,2018
+D02,PENERAPAN ALGORITMA SUPPORT VECTOR MACHINE UNTUK MENDETEKSI EMOSI DARI TEKS BAHASA INDONESIA,2024
+D02,PERANCANGAN DAN IMPLEMENTASI ANTARMUKA PENGGUNA SISTEM INFORMASI BERBASIS WEBSITE SMK NEGERI 6 JAKARTA DENGAN METODE PROTOTYPE,2024
+D02,MEDIA PEMBELAJARAN SUBNET CONQUEROR DENGAN KONSEP GAMIFIKASI PADA SISWA SMK BERBASIS METODE LUTHER-SUTOPO,2024
+D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ARCHITECTURE FRAMEWORK(FEAF) PADA STANDAR PENILAIAN PENDIDIKAN DI SMK KARYA GUNA,2023
+D02,KLASIFIKASI GENRE MUSIK MENGGUNAKAN ALGORITMA NAIVE BAYES CLASSIFIER UNTUK LAYANAN STREAMING YOUTUBE,2023
+D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR SARANA DAN PRASARANA DI SMK KARYA GUNA JAKARTA,2023
+D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FAEF) DALAM STANDAR PEMBIAYAAN PENDIDIKAN DI SMK KARYA GUNA JAKARTA,2023
+D02,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR PENDIDIK DAN TENAGA KEPENDIDIKAN DI SMK KARYA GUNA JAKARTA,2022
+D02,PENGEMBANGAN BACK-END SISTEM MANAJEMEN HUBUNGAN PELANGGAN BERBASIS WEBSITE CV TRITEK SOLUTION DENGAN METODE WATERFALL,2025
+D02,PROSES ASSOCIATION RULE UNTUK MENGETAHUI KECENDERUNGAN BELANJA PADA KOPMA UNJ MENGGUNAKAN ALGORITMA APRIORI DAN ECLAT,2022
+D02,SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENERIMAAN ANGGOTA BARU BPRS ERAFM-UNJ DENGAN MODEL FUZZY MULTI ATTRIBUTE DECISION MAKING (FMADM) MENGGUNAKAN METODE SIMPLE ADDICTIVE WEIGHTING (SAW),2022
+D02,Kinerja Algoritma Canny untuk Mendeteksi Tepi dalam Mengidentifikasi Tulisan pada Citra Digital Meme,2019
+D23,ApoLink: Terhubung Langsung dengan Apoteker untuk Mendapatkan Layanan Kesehatan Terbaik,2024
+D23,"GDSS UNTUK PEMILIHAN ORGANISASI MAHASISWA MENGGUNAKAN AHP, VIKOR, DAN COPELAND SCORE",2023
+D23,Pengenalan Data Mining,2023
+D23,Pelatihan Pembuatan Media Pembelajaran dengan Menggunakan Fitur Canva,2023
+D23,SISTEM PREDIKSI HUJAN MENGGUNAKAN NAÏVE BAYES,2022
+D23,PENGEMBANGAN SISTEM PENDUKUNG KEPUTUSAN DENGAN METODE WEIGHTED PRODUCT UNTUK PEMILIHAN LEMBAGA BIMBINGAN BELAJAR DI PURWOKERTO,2016
+D23,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026
+D23,Logika Digital & Algoritma Dunia Nyata: Menyelami Inti Ilmu Komputer,2025
+D23,Sistem Pendukung Pengambilan Keputusan Berbasis Komputasi: Konsep dan Studi Kasus,2024
+D04,The influence of engineering students numerical reasoning on the academic achievement of Computer Numerical Control (CNC) course,2019
+D04,Campus network Throughput improvement through metric modification of OSPF routing mechanism,2019
+D04,IMPLEMENTASI METODE VISUAL DATA MINING DAN REGRESI LINEAR SEDERHANA DALAM VISUAL ANALITIK DATA PENGADAAN PT. AZIMA INTI SEJATI,2025
+D04,EVALUASI SISTEM INFORMASI ADMINISTRASI KEUANGAN (SAKU) UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN HOT-FIT MODEL,2025
+D04,Optimization of Information and Communication Technology: Digital Innovation for Sustainable Agriculture,2024
+D04,PERANCANGAN REKOMENDASI KRITERIA PADA STANDAR ISI DI DALAM STANDAR NASIONAL PENDIDIKAN MENGGUNAKAN METODE FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) DI SMK KARYA EKOPIN JAKARTA,2024
+D04,USABILITY TESTING PADA APLIKASI PEMESANAN MAKANAN BERBASIS ANDROID PADA KEDAI KOPI PERIANG,2024
+D04,"EVALUASI SISTEM INFORMASI PEMINJAMAN TEMPAT DAN KENDARAAN UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE HUMAN, ORGANIZATION, AND TECHNOLOGY (HOT)-FIT",2023
+D04,PENGEMBANGAN APLIKASI ANDROID UNTUK PEMBELAJARAN PNEUMATIK,2018
+D04,PERANCANGAN E-COMMERCE BERBASIS WEBSITE PADA TOKO REIMA COLLECTION,2023
+D04,Development of Web-based Information System for Universitas Negeri Jakarta,2019
+D04,EFEKTIVITAS E-LEARNING BERBASIS MOODLE DI SMK KARYA GUNA KELAS XI TKJ II MATERI AJAR PRAKTIK JARINGAN KOMPUTER,2020
+D04,"Optimalisasi Teknologi Informasi dan Komunikasi dalam Penyuluhan Budidaya Jamur Tiram di Desa Sukajaya, Ciamis: Inovasi Digital Untuk Pertanian Berkelanjutan",2024
+D14,Pemrograman Berorientasi Objek dalam Java: Panduan Lengkap,2025
+D14,Pelatihan Pemeliharaan Jaringan Komputer Dan Wireless Di Sekolah Di Wilayah Desa Muara Gembong Kecamatan Muara Gembong,2025
+D14,Pengantar Pemrograman dalam Teknologi Informasi,2025
+D14,Implementasi Metode Analytical Hierarchy Process (AHP) pada Rancang Bangun Sistem Pendukung Keputusan Pemilihan Karyawan Terbaik Pada PT XYZ,2025
+D14,Instrumen Penilaian Psikomotorik Berbasis Taksonomi Dave untuk Praktik Konfigurasi Web Server CLI,2026
+D14,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026
+D14,Rekayasa Perangkat Lunak: Dasar-dasar dan Konsep,2025
+D24,Augmented reality for children as a learning media for introduction to historical site,2024
+D24,Prototype development of virtual reality applications as interactive learning media in computer network infrastructure courses,2024
+D24,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023
+D24,Character building model in extracurricular activities using simulation games for elementary school students,2020
+D24,The development of character education model using stop motion animation for elementary school students in Indonesia,2020
+D24,Front-End Development on A Web-Based Teaching Material Repository System at SMK Diponegoro 1 Jakarta,2024
+D24,"IMPLEMENTASI SISTEM PENDETEKSI BANJIR UNTUK MASYARAKAT JATINEGARA KAUM, PULO GADUNG, JAKARTA",2022
+D24,Designing A User Interface and User Experience from Piring Makanku Application by Using Figma Application for Teens,2021
+D24,PENGEMBANGAN MEDIA PEMBELAJARAN TILAWATIL QURAN BERBASIS VIDEO DENGAN MENERAPKAN CURVE AUDIO TRACKING,2021
+D24,PENGEMBANGAN APLIKASI M-COMMERCE PADA TOKO OPTIK MENGGUNAKAN ANDROID STUDIO,2020
+D24,EVALUASI KESUKSESAN SISTEM INFORMASI PENMABA UNJ JALUR MANDIRI BERBASIS WEB MENGGUNAKAN METODE DELONE DAN MCLEAN,2025
+D24,ANALISIS PENGALAMAN PENGGUNA MELALUI UNMODERATED REMOTE USABILITY TESTING PADA PLATFORM E-LABS UNTUK MENDUKUNG KEGIATAN BELAJAR SISWA SELAMA PANDEMI COVID-19,2024
+D24,PERANCANGAN E-COMMERCE BERBASIS WEBSITE PADA TOKO REIMA COLLECTION,2018
+D07,Augmented reality for children as a learning media for introduction to historical site,2024
+D07,Graph model of reporting engine performance results in the business intelligence process,2020
+D07,A framework of human emotion recognition using extreme learning machine,2015
+D07,"Development of Academic Information System Mobile Application Prototype at SD Inpres Touiu, Rote",2024
+D07,Front-End Development on A Web-Based Teaching Material Repository System at SMK Diponegoro 1 Jakarta,2024
+D07,PENGEMBANGAN WEB SERVICE SISTEM PEMBAYARAN MULTIBANK UNIVERSITAS NEGERI JAKARTA,2021
+D07,PENGEMBANGAN WEB SERVICE MODUL MAHASISWA PADA SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2021
+D07,PERANCANGAN SISTEM E-LEARNING BERBASIS LMS MOODLE PADA MATA KULIAH ALGORITMA DAN PEMROGRAMAN DI PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2021
+D07,PERANCANGAN BERBASIS USER EXPERIENCE PADA MODUL ADMIN SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2021
+D07,ANALISIS QUALITY OF SERVICE (QOS) PADA JARINGAN INTERNET SMK NEGERI 7 JAKARTA,2020
+D07,ANALISIS JARINGAN AKSES INTERNET MENGGUNAKAN MIKROTIK ROUTER OS DI SMK TUNAS HARAPAN DENGAN OPTIMALISASI LOAD BALANCING MENGGUNAKAN PARAMETER QoS (Quality of Service),2020
+D07,DESAIN DAN IMPLEMENTASI PADA WIFI PUSTIKOM FREE ACCESS DI PUSAT TEKNOLOGI INFORMASI DAN KOMUNIKASI UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN MIKROTIK DAN WIRESHARK UNTUK ANALISIS TERHADAP SERANGAN PACKET SNIFFING DAN NETCUT,2020
+D07,PENERAPAN KONSEP USER EXPERIENCE (UX) PADA DESAIN VISUALISASI DATA MODUL ADMINISTRASI SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2022
+D07,DESAIN DAN IMPLEMENTASI MANAGEMENT BANDWIDTH PADA HOTSPOT MIKROTIK DI SMK MUTIARA 17 AGUSTUS BEKASI,2022
+D07,PERANCANGAN SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIT UNJ BERBASIS WEBSITE DENGAN PENDEKATAN USER EXPERIENCE,2023
+D07,PENGEMBANGAN WEB SERVICE MODUL ADMIN PADA SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIVERSITAS NEGERI JAKARTA,2023
+D07,PERBANDINGAN PERINGKASAN MULTI DOKUMEN ILMIAH BERBAHASA INDONESIA MENGGUNAKAN METODE K-MEANS DAN K-NEAREST NEIGHBORS (K-NN),2023
+D07,PERBANDINGAN ANALISIS EMOSIONAL PENGGUNA TWITTER PADA PEMINDAHAN IBU KOTA INDONESIA MENGGUNAKAN ALGORITMA NAÏVE BAYES DAN SUPPORT VECTOR MACHINE,2022
+D07,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024
+D07,PERANCANGAN USER EXPERIENCE PADA WEB PEMBELAJARAN BERBASIS KOMIK PADA MATA PELAJARAN BAHASA JEPANG UNTUK PESERTA DIDIK SMAN 110 JAKARTA,2024
+D07,PENGEMBANGAN WEB SERVICE SISTEM INFORMASI SKRIPSI DENGAN METODE SCRUM UNTUK PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2024
+D20,A review of students’ graduation classification: a comparison of Naive Bayes classifier and K-nearest neighbour,2020
+D20,Pembelajaran Interaktif Berbasis Teknologi,2025
+D20,Sistem Informasi Manajemen: Konsep dan Implementasi,2025
+D20,Transformasi Data dalam Teknologi Informasi,2025
+D17,Enhancing Computational Thinking Skills through Markerless Augmented Reality and GPS-Supported Learning in Computer Networking,2026
+D17,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023
+D17,Testing and development of plastic optical fiber as humidity and temperature sensor,2022
+D17,A comparison of classification algorithms for hate speech detection,2020
+D17,A review of ip and mac address filtering in wireless network security,2017
+D17,Data security system using hybrid cryptosystem RC4A-RSA algorithm,2020
+D17,Comparative study of prim and genetic algorithms in minimum spanning tree and travelling salesman problem,2018
+D17,Smart Watering System for Aloe Vera,2023
+D17,Dempster Shafer for Computer Malfunction Detection System,2023
+D17,PENERAPAN METODE FLEX BLENDED LEARNING PADA SMKS IMELDA,2022
+D17,The Design of Web-based Thesis Management Information System to Increase the Quality and Efficiency of Guiding Process and Document Management,2022
+D17,Penerapan Penyemprot Tanaman Elektrik untuk Lahan Pertanian di Desa Kuta Dame,2021
+D17,Implementasi Algoritma Merkle-Hellman Knapsack dalam Penyandian Record Database,2020
+D17,Sistem Informasi Penghitungan Gizi Remaja Dengan Metode Harris Benedict Berbasis Website: Ressy Dwitias Sari,2018
+D17,Needs Analysis of Learning Media Development Based on Markerless Augmented Reality in Learning Computer Networking,2025
+D11,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026
+D11,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026
+D11,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026
+D11,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026
+D11,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025
+D11,Peningkatan Kapasitas Pemasaran UMKM melalui Kolaborasi PKK dan Pelatihan Pembuatan Konten Digital,2025
+D11,Smart city readiness analysis using ministry of communications and informatics smart readiness model: Case study Purworejo Regency,2024
+D11,Sentiment analysis of the job creation law on twitter data using support vector machine,2022
+D11,Perencanaan Strategis Sistem Informasi Untuk Mendukung Pembangunan Smart City Kabupaten Purworejo,2022
+D11,Pengembangan Aplikasi Kontrol Kendali Kemudi Kursi Roda Berbasis Pergerakan Kepala HEMOCS (Head Movement Control System),2018
+D11,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026
+D11,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025
+D16,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025
+D16,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026
+D16,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026
+D16,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026
+D16,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026
+D16,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025
+D16,Mobile health tracker application for children (telehealth): applying soft system methodology for community IT-based project,2022
+D16,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026
+D16,DESAIN ALGORTIMA ROBOT MOBILE DENGAN DETEKSI OBSTACLE DAN CLIFF BERBASIS SERVO DAN DOUBLE ULTRASONIK,2025
+D16,AUDIT KEAMANAN TEKNOLOGI INFORMASI DENGAN NATIONAL INSTITUTE OF STANDARD AND TECHNOLOGY (NIST) 800-30 PADA PD INDAH PERMAI GROUP,2025
+D16,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026
+D16,Cloud Computing Adoption in Education: A Systematical Literature Review,2025
+D16,Lexerning: Web Based E-Learning System for Dyslexic Children,2015
+D18,A cardiotocographic classification using feature selection: a comparative study,2021
+D18,Research trend of causal machine learning method: A literature review,2020
+D18,PENERAPAN FLASK FRAMEWORK UNTUK DEPLOYMENT MODEL MACHINE LEARNING DALAM MENDUKUNG ANALISIS ADAPTASI MAHASISWA PADA PEMBELAJARAN DARING,2025
+D18,Pemilihan Atribut Evaluasi Kondisi Perkuliahan yang Berpengaruh Terhadap Tingkat Kepuasan Mahasiswa dalam Mengikuti Mata Kuliah,2022
+D18,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026
+D18,A machine learning framework for improving classification performance on credit approval,2021
+D21,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025
+D21,IMPLEMENTASI SAMPAH CERDAS DI UNIVERSITAS: SEBUAH SYSTEMATIC LITERATURE REVIEW,2025
+D21,PARADIGMA SISTEM DALAM TATA KELOLA ETIKA DAN INFRASTRUKTUR AI: ANALISIS PERAN SISTEM OPERASI,2025
+D21,CRITICAL SUCCESS FACTOR ADOPSI TEKNOLOGI INFORMASI DAN KOMUNIKASI PADA LEMBAGA PEMASYARAKATAN: SEBUAH STUDI KASUS,2024
+D21,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026
+D21,Manajemen Teknologi Informasi: Strategi dan Implementasi,2025
+D21,Smart Waste Management Planning to Support the Implementation of Smart City in the New National Capital City of Indonesia,2023
+D21,Perbandingan Algoritma Canny Edge Detection Dan Prewitt Pada Deteksi Stadium Diabetik Retinopati,2021
+D21,DEVELOPMENT AND USABILITY EVALUATION OF A WEB-BASED SALES AND INVENTORY MANAGEMENT INFORMATION SYSTEM FOR MSMES USING RAPID APPLICATION DEVELOPMENT,2026
+D21,Data Security in Internet of Things Systems Based on Distributed Blockchain,2025
+D21,Internet of Things (IoT): Konsep dan Aplikasi,2025
+D21,RANCANG BANGUN MINIATUR ROBOT PEMADAM API STUDI KASUS DI BADAN PENGKAJIAN DAN PENERAPAN TEKNOLOGI (BPPT),2019
+D03,"Increasing terminal capacity based on adaptive port planning case study at Cigading Port, Indonesia",2020
+D03,Critical Success Factors of Software Projects: The Perspective A Software Company from Indonesia,2020
+D03,Performance Comparison of 10 Machine Learning Algorithms in Sentiment Classification on Platform X Regarding the Government’s Priority Program: Makanan Bergizi Gratis (MBG),2025
+D03,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026
+D03,PANDEMIC PULSE: PERANCANGAN INSTALASI INTERAKTIF BERBASIS DATA TERINSPIRASI DARI KARYA JASON BRUGES,2026
+D03,Static Code Analysis for Identification and Prioritization of Code Quality Remediation in a Resource-Constrained University Academic Information System,2026
+D03,Evaluating Image Recognition Accuracy in Explicit Content Detection: A Comparative Study with Indonesian Perceptions,2026
+D03,Test-First Protocol for Deriving Unit Tests from Use Case Specifications,2026
+D03,"Sentiment Analysis of JKN Mobile Application in Health Technology Using Naive Bayes, Gradient Boosting, and AdaBoost",2025
+D03,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026
+D03,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026
+D03,Aplikasi Pemesanan Makanan Dan Minuman Restaurant Berbasis Client Server Dengan Platform Android Dan Php Menggunakan Metode Centralized Dbms Architecture,2016
+D03,Application of design thinking and prototype methods in the design of mobile-based hijab e-commerce applications: Cv ren,2023
+D03,Perancangan Topologi Jaringan Sekolah Berbasis VLAN Dengan Implementasi Firewall Dan VPN Menggunakan Cisco Packet Tracer,2026
+D03,Multi-Horizon LSTM Forecasting of Indonesian Food Commodity Prices to Support the Free Nutritious Meal (MBG) Program,2026
+D15,Prediction of Traffic Congestion Based on Time Series Dataset Number of Vehicles Using Neural Network Algorithm,2024
+D15,Development of evaluation results information system learn based on website,2019
+D15,Pengujian Performa Jaringan Syaraf Tiruan Backpropagation Pada Model Pengenalan Tanda Tangan,2018
+D15,Perancangan Dan Pengembangan Aplikasi Sistem Informasi Monitoring Perkuliahan Dan Kehadiran Mahasiswa Berbasis Web,2017
+D15,Pengembangan Aplikasi Ujian Online Berbasis Website pada Mata Pelajaran Sistem Operasi Kelas X TKJ SMK Negeri 7 Jakarta,2018
+D15,Pengembangan Game Edukasi Keterampilan Membaca untuk Siswa TK Aisyiah Rawamangun,2019
+D15,Analisis Manajemen Bandwidth Hierarchical Token Bucket (HTB) dengan Mikrotik pada Jaringan SMK Negeri 22,2019
+D15,Internet of Things of Electronic Seal Base on Gprs Short Message Service and Thingspeak,2019
+D15,Pengembangan Game Edukasi Covid-19 Berbasis Android Menggunakan Metode Multimedia Development Life Cycle (MDLC),2024
+D15,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025
+D15,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026
+D15,Development of Web-based Information System for Universitas Negeri Jakarta,2019
+D15,Tracer study information system for higher education,2021
+D12,"Development of Academic Information System Mobile Application Prototype at SD Inpres Touiu, Rote",2024
+D12,Indonesian Fake News Classification Using Transfer Learning in CNN and LSTM,2024
+D12,Sentiment Analysis Twitter (X) Users Towards the Boycott of Pro-Israel Brand Using Support Vector Machine Method with SMOTE Approach,2024
+D12,Comparative Study of Logistic Regression and K-Nearest Neighbor for Heart Disease Prediction,2024
+D12,Sentiment Analysis on Dirty Vote Movie in X (Twitter) Using Convolutional Neural Network,2024
+D12,MULTIPLE-CRITERIA DECISION ANALYSIS MENGGUNAKAN COMPOSITE PERFORMANCE INDEX PADA SISTEM PEMILIHAN IP CAMERA,2023
+D12,Pengenalan Landmark Pariwisata di Kulon Progo Berbasis Augmented Reality,2023
+D12,Expert System for Diagnosing Learning Disorders in Children Using the Dempster-Shafer Theory Approach,2023
+D12,ANALISIS USABILITAS WEB SISTEM UANG KULIAH TUNGGAL UNIVERSITAS NEGERI JAKARTA,2023
+D12,Pengembangan User Interface Aplikasi Promosi Umkm Kelurahan Bukit Duri Melalui Pendekatan User Experience Dengan Metode Lean Ux Yang Berbasis Android,2023
+D12,MULTI-CRITERIA DECISION ANALYSIS USING COMPLEX PROPORTIONAL ASSESSMENTS AND RANK ORDER CENTROID METHODS IN THE SELECTION SYSTEM FOR TUTORING INSTITUTIONS,2023
+D12,Sentiment Analysis for Curriculum of Independent Learning Based on Naïve Bayes with Laplace Estimator,2023
+D12,Moodle-based Learning Management System Design as a Learning Media at SMKN 40 Jakarta,2023
+D12,Sentiment Analysis of Public Opinion on Twitter about the Implementation of the Merdeka Curriculum Using the Support Vector Machine Algorithm,2023
+D12,Comparison of Bankruptcy Prediction Models Using Support Vector Machine and Artificial Neural Network,2022
+D12,Simple Distribution of Sensitive Values for Multiple Sensitive Attributes in Privacy Preserving Data Publishing to Achieve Anatomy,2021
+D12,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2020
+D12,PERINGKASAN TEKS BERBAHASA INDONESIA MENGGUNAKAN TEKNIK EKSTRAKSI DENGAN ALGORITMA LATENT SEMANTIC ANALYSIS (LSA) DENGAN VARIASI TF-IDF UNTUK PERINGKASAN SINGLE DOCUMENT,2024
+D12,ANALISIS SENTIMEN RANCANGAN UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL/UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL PENGGUNA TWITTER MENGGUNAKAN ALGORITMA NAÏVE BAYES CLASSIFIER,2024
+D12,TOPIC MODELING DOKUMEN SKRIPSI PRODI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE LATENT DIRICHLET ALLOCATION,2024
+D12,ANALISIS SENTIMEN PENGGUNA TWITTER TERHADAP KEBIJAKAN PEMERINTAH DALAM MENANGANI COVID-19 MENGGUNAKAN METODE SUPPORT VECTOR MACHINE DAN NAIVE BAYES DENGAN LAPLACE ESTIMATOR,2025
+D12,ANALISIS PREDIKSI TUMBUH KEMBANG ANAK DENGAN MACHINE LEARNING,2025
+D12,Pengembangan Sistem Informasi Monitoring Dan Evaluasi Dosen Menggunakan Metode Agile Feature,2024
+D12,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023
+D10,PENERAPAN KONSEP USER EXPERIENCE (UX) PADA DESAIN VISUALISASI DATA MODUL ADMINISTRASI SISTEM INFORMASI AKADEMIK UNIVERSITAS NEGERI JAKARTA,2022
+D10,DESAIN DAN IMPLEMENTASI MANAGEMENT BANDWIDTH PADA HOTSPOT MIKROTIK DI SMK MUTIARA 17 AGUSTUS BEKASI,2022
+D10,PERANCANGAN SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIT UNJ BERBASIS WEBSITE DENGAN PENDEKATAN USER EXPERIENCE,2023
+D10,"Analisis, Perancangan, Dan Implementasi Jaringan Wireless Point To Point Antara Kampus A Dan Kampus B Universitas Negeri Jakarta",2017
+D10,Perancangan Dan Implementasi Sistem Keamanan Jaringan Menggunakan Firewall dan Web Proxy Berbasis Mikrotik di SMA Negeri 1 Kota Sukabumi,2018
+D10,PENGEMBANGAN BACK-END SISTEM MANAJEMEN HUBUNGAN PELANGGAN BERBASIS WEBSITE CV TRITEK SOLUTION DENGAN METODE WATERFALL,2025
+D10,Prototipe Alkohol Detektor Pada Mobil Berbasis SMS GATEWAY dan GPS Sebagai Media Informasi,2016
+D10,Monitoring Lalu Lintas Jaringan Demilitarized Zone Universitas Negeri Jakarta Menggunakan Sensor Packet Sniffer Pada PRTG Network Monitor,2017
+D10,ANALISIS QUALITY OF SERVICE (QOS) PADA JARINGAN INTERNET SMK NEGERI 7 JAKARTA,2020
+D10,ANALISIS JARINGAN AKSES INTERNET MENGGUNAKAN MIKROTIK ROUTER OS DI SMK TUNAS HARAPAN DENGAN OPTIMALISASI LOAD BALANCING MENGGUNAKAN PARAMETER QoS (Quality of Service),2020
+D10,Perancangan Dan Implementasi Antarmuka Pengguna Sistem Informasi Berbasis Website Smk Negeri 6 Jakarta Dengan Metode Prototype,2024
+D10,"Analisis perbandingan kinerja layanan cloud computing pada aplikasi Dropbox, Google Drive, dan OneDrive dengan metode Boehm’s quality model",2023
+D10,DESAIN DAN IMPLEMENTASI PADA WIFI PUSTIKOM FREE ACCESS DI PUSAT TEKNOLOGI INFORMASI DAN KOMUNIKASI UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN MIKROTIK DAN WIRESHARK UNTUK ANALISIS TERHADAP SERANGAN PACKET SNIFFING DAN NETCUT,2020
+D10,Pengembangan Situs Sistem Pendaftaran Online Peserta Ujian Mandiri Universitas Negeri Jakarta,2018
+D10,Instrumen Penilaian Psikomotorik Berbasis Taksonomi Dave untuk Praktik Konfigurasi Web Server CLI,2026
+D22,Pengembangan Situs Sistem Pendaftaran Online Peserta Ujian Mandiri Universitas Negeri Jakarta,2018
+D22,PENGEMBANGAN WEB SERVICE MODUL ADMIN PADA SISTEM INFORMASI PENERIMAAN CALON ANGGOTA BARU KSR PMI UNIVERSITAS NEGERI JAKARTA,2023
+D22,PERBANDINGAN PERINGKASAN MULTI DOKUMEN ILMIAH BERBAHASA INDONESIA MENGGUNAKAN METODE K-MEANS DAN K-NEAREST NEIGHBORS (K-NN),2023
+D22,PERBANDINGAN ANALISIS EMOSIONAL PENGGUNA TWITTER PADA PEMINDAHAN IBU KOTA INDONESIA MENGGUNAKAN ALGORITMA NAÏVE BAYES DAN SUPPORT VECTOR MACHINE,2023
+D22,PROSES ASSOCIATION RULE UNTUK MENGETAHUI KECENDERUNGAN BELANJA PADA KOPMA UNJ MENGGUNAKAN ALGORITMA APRIORI DAN ECLAT,2022
+D22,SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENERIMAAN ANGGOTA BARU BPRS ERAFM-UNJ DENGAN MODEL FUZZY MULTI ATTRIBUTE DECISION MAKING (FMADM) MENGGUNAKAN METODE SIMPLE ADDICTIVE WEIGHTING (SAW),2022
+D22,KLASIFIKASI GENRE MUSIK MENGGUNAKAN ALGORITMA NAÏVE BAYES CLASSIFIER UNTUK LAYANAN STREAMING YOUTUBE,2023
+D22,PERANCANGAN ENTERPRISE ARCHITECTURE DENGAN MENGGUNAKAN FEDERAL ENTERPRISE ARCHITECTURE FRAMEWORK (FEAF) PADA STANDAR SARANA DAN PRASARANA DI SMK KARYA GUNA JAKARTA,2023
+D22,PERANCANGAN USER INTERFACE WEBSITE SISTEM PENGELOLAAN KURIKULUM UNIVERSITAS NEGERI JAKARTA DENGAN PENDEKATAN USER EXPERIENCE,2024
+D22,PERANCANGAN USER EXPERIENCE PADA WEB PEMBELAJARAN BERBASIS KOMIK PADA MATA PELAJARAN BAHASA JEPANG UNTUK PESERTA DIDIK SMAN 110 JAKARTA,2024
+D22,PENERAPAN ALGORITMA SUPPORT VECTOR MACHINE UNTUK MENDETEKSI EMOSI DARI TEKS BAHASA INDONESIA,2024
+D22,PERINGKASAN TEKS BERBAHASA INDONESIA MENGGUNAKAN TEKNIK EKSTRAKSI DENGAN ALGORITMA LATENT SEMANTIC ANALYSIS (LSA) DENGAN VARIASI TF-IDF UNTUK PERINGKASAN SINGLE DOCUMENT,2024
+D22,ANALISIS SENTIMEN RANCANGAN UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL/UNDANG-UNDANG TINDAK PIDANA KEKERASAN SEKSUAL PENGGUNA TWITTER MENGGUNAKAN ALGORITMA NAÏVE BAYES CLASSIFIER,2024
+D22,PENGEMBANGAN WEB SERVICE SISTEM INFORMASI SKRIPSI DENGAN METODE SCRUM UNTUK PROGRAM STUDI PENDIDIKAN TEKNIK INFORMATIKA DAN KOMPUTER UNIVERSITAS NEGERI JAKARTA,2024
+D22,ANALISIS SENTIMEN PENGGUNA TWITTER TERHADAP KEBIJAKAN PEMERINTAH DALAM MENANGANI COVID-19 MENGGUNAKAN METODE SUPPORT VECTOR MACHINE DAN NAIVE BAYES DENGAN LAPLACE ESTIMATOR,2025
+D22,Pengujian Performa Jaringan Syaraf Tiruan Backpropagation Pada Model Pengenalan Tanda Tangan,2018
+D22,inerja Algoritma Canny untuk Mendeteksi Tepi dalam Mengidentifikasi Tulisan pada Citra Digital Meme,2019
+D22,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2021
+D09,Comparison of wireless sensor network low-energy adaptive clustering hierarchy (LEACH) and hybrid energy-efficient distributed (HEED) protocols in parking area monitoring systems,2024
+D09,Neural Network Back-Propagation Method as Forecasting Technique,2022
+D09,ANALISIS LAYANAN INFRASTRUKTUR JARINGAN VLAN (VIRTUAL LOCAL AREA NETWORK) DI SMK KARYAGUNA,2020
+D09,ANALISIS KINERJA PARAMETER THROUGHPUT DAN DELAY AKSES INETRNET DI SMK KARYAGUNA JAKARTA SELATAN,2020
+D09,THE CONTEXT OF FIELDWORK PRACTICES IN COMPUTER AND NETWORKING ENGINEERING MAJOR AT VOCATIONAL SCHOOL,2020
+D09,Blended Learning Implementation and Impact in Vocational Schools,2020
+D09,Analisis Manajemen Bandwidth Hierarchical Token Bucket (HTB) dengan Mikrotik pada Jaringan SMK Negeri 22,2019
+D09,Vocational Curriculum Implementation of the Three Years Program of Electronics Engineering,2019
+D09,Optimization design of CAI for computer programming language to improve student's competence,2019
+D09,Campus network Throughput improvement through metric modification of OSPF routing mechanism,2019
+D09,Sistem Informasi Nilai Siswa Berbasis Web di SMK Karya Guna Jakarta,2018
+D09,ANALISIS KINERJA JARINGAN KOMUNIKASI DATA VSAT IP (VERY SMALL APERTEUR TERMINAL) PADA REMOTE MOBILE KU-BAND,2021
+D09,Representation of media literacy in the dimensions of social life in Indonesia,2018
+D09,Adjusted Framework of M-Learning in Blended Learning System for Mathematics Study Field of Junior High School Level VII,2018
+D09,Measurement of Usability for Multimedia Interactive Learning Based on Website in Mathematics for SMK,2018
+D09,Transmission behavior in ad hoc network minimizing the number of hops and maintaining connectivity of mobile terminals which move from one to the others,2011
+D09,Agent based approach of routing protocol minimizing the number of hops and maintaining connectivity of mobile terminals which move one area to the other,2010
+D09,Real-Time DDoS Detection and Monitoring Dashboard with Multi-View Statistical Visualization: An Adaptive Approach for Indonesian Cyber Resilience,2026
+D09,Enhancing National Cyber Resilience: Real-Time DDoS Detection and Mitigation Using Isolation Forest and Machine Learning Techniques,2026
+D09,Perancangan Topologi Jaringan Sekolah Berbasis VLAN Dengan Implementasi Firewall Dan VPN Menggunakan Cisco Packet Tracer,2026
+D09,DESIGN AND IMPLEMENTATION OF SUCIRATA-BASED INSTRUSION DETECTION SYSTEM AS A NETWORK SECURITY SYSTEM CLOUD COMPUTERS,2023
+D09,Energy Consumption in Ad Hoc Network With Agents Minimizing the Number of Hops and Maintaining Connectivity of Mobile Terminals Which Move from One to the Others,2011
+D09,Kualitas Jaringan Pada Jaringan Virtual Local Area Network (VLAN) Yang Menerapkan Linux Terminal Server Project (LTSP),2017
+D09,Utilization of Data Oriented Technology Stack in Unity Game Engine and Unity's Classic Technology to Develop Danmaku Game,2023
+D09,Analisis Perbandingan Antara Colocation Server Dengan Amazon Web Services (Cloud) Untuk Usabilitas Portal swa. co. id Di PT. Swa Media Bisnis,2017
+D06,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023
+D06,Analisis Metode Benefit Cost Analysis (BCA) Dalam Audit Sistem Informasi PT. Najwa Bintang Anugerah,2021
+D06,"Introduction to Cybersecurity for Teachers and Students of SMA Plus Putra Melati, Jonggol, Regarding Digital Crime Threats",2026
+D06,Pengembangan Sistem Informasi Monitoring Dan Evaluasi Dosen Menggunakan Metode Agile Feature,2024
+D06,ANALISIS IT STRATEGIC PLANNING (ITSP) PADA PT. X DENGAN PENDEKATAN MODEL SWOT,2014
+D06,EVALUASI KESUKSESAN SISTEM INFORMASI PENMABA UNJ JALUR MANDIRI BERBASIS WEB MENGGUNAKAN METODE DELONE DAN MCLEAN,2025
+D06,IMPLEMENTASI METODE VISUAL DATA MINING DAN REGRESI LINEAR SEDERHANA DALAM VISUAL ANALITIK DATA PENGADAAN PT. AZIMA INTI SEJATI,2025
+D06,ANALISIS PENGALAMAN PENGGUNA MELALUI UNMODERATED REMOTE USABILITY TESTING PADA PLATFORM E-LABS UNTUK MENDUKUNG KEGIATAN BELAJAR SISWA SELAMA PANDEMI COVID-19,2024
+D06,"EVALUASI SISTEM INFORMASI PEMINJAMAN TEMPAT DAN KENDARAAN UNIVERSITAS NEGERI JAKARTA MENGGUNAKAN METODE HUMAN, ORGANIZATION, AND TECHNOLOGY (HOT)-FIT",2023
+D06,Perancangan Software Requirements Specification (SRS) Sistem Informasi Banking Kartu Kredit,2013
+D06,Perancangan Dan Analisa WAN Dengan Menggunakan Teknologi Frame relay: Studi Kasus Pada PT. XYZ,2013
+D06,Analisis dan Perancangan Migrasi Jaringan dari IP4 Ke IP6 Pada PT. XYZ,2014
+D06,ANALISIS DAN PERANCANGAN TEKNOLOGI FRAME RELAY DENGAN MENGGUNAKAN ENCHANCED INTERIOR GATEWAY ROUTING PROTOCOL (EIGRP): STUDI KASUS PADA PT. XYZ,2015
+D08,The impact of slack bus fitness on the performance of South Sulawesi electrical systems at peak load conditions,2024
+D08,Closer Look at Image Classification for Indonesian Sign Language with Few-Shot Learning Using Matching Network Approach,2023
+D08,Deteksi Penyakit Pada Daun Padi Berbasis Pengolahan Citra Menggunakan Metode Convolutional Neural Network (CNN),2023
+D08,The effect of baseline establishment on energy savings estimate in green building certification,2023
+D08,Sentiment Analysis of Youtube Data: A Survey for Subang Small and Medium-sized Enterprises,2023
+D08,Enhanced Few-Shot Learning for Indonesian Sign Language with Prototypical Networks Approach,2023
+D08,Statistical and machine learning application approach to predict mass flowrate,2023
+D08,PERANCANGAN ANTARMUKA SISTEM KOLABORASI GURU MATA PELAJARAN TKI JAKARTA TIMUR BERBASIS USER EXPERIENCE DENGAN METODE LEAN UX,2022
+D08,PENGEMBANGAN ADVERGAME BERBASIS VISUAL NOVEL SEBAGAI MEDIA PROMOSI DIGITAL PRODI PTIK UNIVERSITAS NEGERI JAKARTA,2022
+D08,PELATIHAN PENGGUNAAN APLIKASI MARKET PLACE BAGI GURU DI SMPN 1 KARANG BAHAGIA KABUPATEN BEKASI,2022
+D08,Implementasi Data Science dalam Ritel Online: Analisis Customer Retention dan Clustering Customer dengan Metode K-Means,2021
+D08,Simple Distribution of Sensitive Values for Multiple Sensitive Attributes in Privacy Preserving Data Publishing to Achieve Anatomy,2021
+D08,Telemedicine-equipped android interface-based heart rate monitoring,2021
+D08,Electronic Snellen Chart with Bluetooth Connection and Smartphone App,2020
+D08,A Basic Concept of Image Classification for Covid-19 Patients Using Chest CT Scan and Convolutional Neural Network,2020
+D08,Design of Portable Weather Station Using MQTT Protocol,2019
+D08,Mobile augmented reality using cloud database for interactive museum guiding system,2019
+D08,DeepPhishing: stepping up phishing detection using generative round network,2025
+D08,Modern privacy-preserving and security schemes in social networks: a review,2021
+D08,Robust Breast cancer Detection using Faster R-CNN Algoritma,2022
