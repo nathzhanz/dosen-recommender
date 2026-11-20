@@ -54,7 +54,7 @@ dan centang **Bandingkan profil berdampingan** untuk melihat dua daftar sekaligu
 
 **Sumber (informasi publik):**
 - Skripsi dan nama pembimbing: Repositori UNJ (repository.unj.ac.id), program studi S1 Sistem dan Teknologi Informasi dan S1 PTIK.
-- Publikasi dosen: Scopus, Google Scholar, Garuda (garuda.kemdiktisaintek.go.id), dan SINTA (sinta.kemdiktisaintek.go.id). Data publikasi diperbarui **19 November 2026**: judul di luar keilmuan komputer dibuang manual, judul ganda per dosen dihapus, dan satu dosen (Rauhil Fahmi, belum punya skripsi di repositori, beban 0) ditambahkan. Berkas sumber: `data_collection/out/Dataset_Publikasi_Dosen.xlsx`.
+- Publikasi dosen: Scopus, Google Scholar, Garuda (garuda.kemdiktisaintek.go.id), dan SINTA (sinta.kemdiktisaintek.go.id). Data publikasi diperbarui **19-20 November 2026**: judul di luar keilmuan komputer dibuang manual, judul ganda per dosen dihapus, dan satu dosen (Rauhil Fahmi, belum punya skripsi di repositori, beban 0) ditambahkan. Berkas sumber: `data_collection/out/Dataset_Publikasi_Dosen.xlsx` (satu sheet per dosen, 24 dosen); diubah menjadi CSV dengan `python data_collection/import_dataset_xlsx.py`, lalu `python data_collection/build_dataset.py`.
 - Tanggal pengambilan: **11-12 November 2026**.
 
 **Etika dan privasi:** nama mahasiswa dan NIM **tidak** disimpan. Data hanya memuat judul skripsi, tahun, dan nama dosen (informasi publik).
