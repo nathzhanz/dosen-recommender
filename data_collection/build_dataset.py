@@ -3,7 +3,7 @@
 Masukan (taruh di data_collection/out/):
   theses_raw.csv            -> hasil collect_unj.py (eprint_id, judul, tahun, prodi, pembimbing 'A | B')
   sinta_publications.csv    -> disalin manual dari profil SINTA: nama_dosen, judul, tahun
-  (opsional) lecturers_info.csv -> nama_dosen, bidang, kuota   (kalau tidak ada: bidang='-', kuota=10)
+  (opsional) lecturers_info.csv -> nama_dosen, bidang, kuota, pakar, rumpun_kbi   (dibuat dari dosen.csv; kalau tidak ada: bidang dari prodi skripsi, kuota=20)
 
 Aturan: hanya dosen yang PUNYA publikasi (>= --min-pub) yang dipakai. Skripsi yang pembimbingnya tidak
 punya publikasi dibuang dan dilaporkan di out/laporan_data.txt.
@@ -57,7 +57,7 @@ def main():
     th = pd.read_csv(OUT / "theses_raw.csv", dtype=str).fillna("")
     pub = pd.read_csv(OUT / "sinta_publications.csv", dtype=str).fillna("")
     info_f = OUT / "lecturers_info.csv"
-    info = pd.read_csv(info_f, dtype=str).fillna("") if info_f.exists() else pd.DataFrame(columns=["nama_dosen", "bidang", "kuota"])
+    info = pd.read_csv(info_f, dtype=str).fillna("") if info_f.exists() else pd.DataFrame(columns=["nama_dosen", "bidang", "kuota", "pakar", "rumpun_kbi"])
 
     pub["key"] = pub["nama_dosen"].map(nk)
     pub = pub[pub["judul"].str.strip() != ""].drop_duplicates(["key", "judul"])
@@ -109,7 +109,9 @@ def main():
         prodi_by_key = tp.groupby("key")["prodi"].agg(lambda x: ", ".join(sorted(set(x)))).to_dict()
     lecturers = pd.DataFrame([{"id": key_to_id[k], "nama": name_of[k],
                                "bidang": info_map.get(k, {}).get("bidang", "") or ("Prodi " + prodi_by_key[k] if k in prodi_by_key else "-"),
-                               "kuota": info_map.get(k, {}).get("kuota", "") or str(args.kuota)} for k in lec_keys])
+                               "kuota": info_map.get(k, {}).get("kuota", "") or str(args.kuota),
+                               "pakar": info_map.get(k, {}).get("pakar", ""),
+                               "rumpun_kbi": info_map.get(k, {}).get("rumpun_kbi", "")} for k in lec_keys])
     publications = pd.DataFrame({"lecturer_id": pub["key"].map(key_to_id), "judul": pub["judul"], "tahun": pub["tahun"]}).dropna(subset=["lecturer_id"])
     theses = pd.DataFrame({"thesis_id": "S" + keep["eprint_id"].astype(str).values, "judul": keep["judul"].values,
                            "lecturer_id": keep["key"].map(key_to_id).values, "tahun": keep["tahun"].values})

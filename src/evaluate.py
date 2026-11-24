@@ -88,5 +88,38 @@ def run():
     return df
 
 
+def run_ablasi():
+    """Pengaruh fitur pencarian kata kunci (keahlian dosen di profil, perluasan sinonim) pada 30 query uji.
+    Hasil: eval/hasil_ablasi.csv. Catatan: query uji berupa judul skripsi lengkap, jadi tabel ini terutama
+    memeriksa bahwa fitur baru tidak merusak hasil, bukan mengukur pencarian dengan kata kunci pendek."""
+    lecturers, pubs, theses = load_data()
+    theses = theses.copy()
+    theses["thesis_id"] = theses["thesis_id"].astype(str)
+    ids = pd.read_csv(OUT / "query_uji_manual.csv", dtype=str)["thesis_id"].tolist()
+    test = theses.drop_duplicates("thesis_id")
+    test = test[test["thesis_id"].isin(ids)]
+    truth = theses[theses["thesis_id"].isin(ids)].groupby("thesis_id")["lecturer_id"].agg(set).to_dict()
+    train = theses[~theses["thesis_id"].isin(ids)]
+    konfig = [("gabungan", 1, False), ("gabungan", 1, True),
+              ("gabungan+keahlian", 1, False), ("gabungan+keahlian", 2, False), ("gabungan+keahlian", 3, False),
+              ("gabungan+keahlian", 1, True)]
+    rows = []
+    for profile, bobot, exp in konfig:
+        rec = Recommender(lecturers, pubs, train, profile=profile, bobot_keahlian=bobot)
+        for model in ("TF-IDF", "BM25"):
+            ranks = []
+            for _, r in test.iterrows():
+                order = [x["id"] for x in rec.recommend(r["judul"], model=model, k=len(lecturers), expand=exp)]
+                pos = [order.index(l) + 1 for l in truth[r["thesis_id"]] if l in order]
+                ranks.append(min(pos) if pos else None)
+            rows.append({"profil": profile, "bobot_keahlian": bobot if "keahlian" in profile else 0,
+                         "perluasan_sinonim": "ya" if exp else "tidak", "model": model, **metrics(ranks)})
+    df = pd.DataFrame(rows).round(3)
+    df.to_csv(OUT / "hasil_ablasi.csv", index=False)
+    print(df.to_string(index=False))
+    return df
+
+
 if __name__ == "__main__":
-    run()
+    import sys
+    run_ablasi() if "--ablasi" in sys.argv else run()

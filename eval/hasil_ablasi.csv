@@ -1,0 +1,13 @@
+profil,bobot_keahlian,perluasan_sinonim,model,Success@1,Success@3,MRR
+gabungan,0,tidak,TF-IDF,0.2,0.4,0.402
+gabungan,0,tidak,BM25,0.333,0.467,0.481
+gabungan,0,ya,TF-IDF,0.233,0.433,0.432
+gabungan,0,ya,BM25,0.333,0.567,0.499
+gabungan+keahlian,1,tidak,TF-IDF,0.2,0.467,0.406
+gabungan+keahlian,1,tidak,BM25,0.333,0.5,0.487
+gabungan+keahlian,2,tidak,TF-IDF,0.2,0.5,0.416
+gabungan+keahlian,2,tidak,BM25,0.333,0.5,0.487
+gabungan+keahlian,3,tidak,TF-IDF,0.233,0.5,0.434
+gabungan+keahlian,3,tidak,BM25,0.333,0.533,0.489
+gabungan+keahlian,1,ya,TF-IDF,0.233,0.533,0.435
+gabungan+keahlian,1,ya,BM25,0.267,0.633,0.465

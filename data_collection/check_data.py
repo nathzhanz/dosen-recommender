@@ -25,7 +25,7 @@ try:
 except FileNotFoundError as e:
     sys.exit(f"GAGAL : {e.filename} tidak ada. Data asli belum dibuat (lihat data_collection/README.md).")
 
-for name, df, cols in (("lecturers", L, ["id", "nama", "bidang", "kuota"]),
+for name, df, cols in (("lecturers", L, ["id", "nama", "bidang", "kuota", "pakar", "rumpun_kbi"]),
                        ("publications", P, ["lecturer_id", "judul", "tahun"]),
                        ("theses", T, ["thesis_id", "judul", "lecturer_id", "tahun"])):
     if list(df.columns) != cols:

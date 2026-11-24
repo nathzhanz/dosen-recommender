@@ -18,9 +18,17 @@ Setiap anggota wajib memahami dan mampu menjelaskan seluruh kode.
 ## Fitur
 - Inverted index buatan sendiri (tanpa library pencarian siap pakai).
 - Dua model ranking: **TF-IDF (cosine)** dan **BM25** (k1=1.5, b=0.75).
-- Dua representasi profil dosen: **publikasi saja** dan **gabungan** (publikasi + judul skripsi yang dibimbing).
+- Tiga representasi profil dosen: **publikasi saja**, **gabungan** (publikasi + judul skripsi yang dibimbing), dan **gabungan + keahlian** (ditambah bidang keahlian dan rumpun KBI dari data dosen).
+- **Pencarian dengan kata kunci**: tab "Pilih topik" (topik diambil dari bidang keahlian dosen) dan **perluasan sinonim Indonesia-Inggris** (`src/expand.py`), sehingga query tidak harus sama dengan judul skripsi.
+- Kartu dosen menampilkan **prodi, rumpun KBI, bidang keahlian** (yang cocok diberi warna), beban bimbingan, dan tautan ke pencarian pegawai satudata UNJ.
+- Filter prodi dan rumpun KBI; antarmuka ramah HP; siap di-deploy sebagai web publik (`DEPLOY.md`).
 - Penjelasan rekomendasi: kata kunci yang cocok dan judul pendukung.
 - Bonus: **pertimbangan beban bimbingan** (slider; skripsi dibimbing dibanding kuota) dan **tampilan perbandingan berdampingan** profil publikasi vs gabungan.
+
+## Tampilan
+| Laptop | HP |
+|---|---|
+| ![Tampilan laptop](docs/ui_desktop.png) | ![Tampilan HP](docs/ui_mobile.png) |
 
 ## Struktur repo
 | Komponen | File |
@@ -29,7 +37,9 @@ Setiap anggota wajib memahami dan mampu menjelaskan seluruh kode.
 | Inverted index (postings, df, panjang dokumen) | `src/index.py` |
 | Model ranking TF-IDF dan BM25 | `src/ranking.py` |
 | Profil dosen, ranking, penjelasan, beban bimbingan | `src/recommender.py` |
-| Evaluasi hold-out (Success@1, Success@3, MRR) | `src/evaluate.py` |
+| Perluasan query (sinonim ID-EN) | `src/expand.py` |
+| Evaluasi hold-out (Success@1, Success@3, MRR) dan ablasi fitur | `src/evaluate.py` (`--ablasi`) |
+| Grafik evaluasi | `src/plot_evaluasi.py` |
 | Antarmuka web | `app.py` (Streamlit) |
 | Pengumpulan dan penggabungan data | `data_collection/` |
 | Data siap pakai | `data/` |
@@ -39,7 +49,7 @@ Setiap anggota wajib memahami dan mampu menjelaskan seluruh kode.
 Butuh Python 3.10+ .
 ```bash
 pip install -r requirements.txt
-streamlit run app.py          # buka http://localhost:8501
+streamlit run app.py          # buka http://localhost:8501 (untuk web publik: lihat DEPLOY.md)
 python -m src.evaluate        # hasil di folder eval/
 ```
 Di sidebar aplikasi: pilih model (BM25/TF-IDF), profil (gabungan/publikasi), jumlah hasil, bobot beban bimbingan,
@@ -48,7 +58,7 @@ dan centang **Bandingkan profil berdampingan** untuk melihat dua daftar sekaligu
 ## Data
 | Berkas | Isi | Kolom |
 |---|---|---|
-| `data/lecturers.csv` | 24 dosen pembimbing | `id, nama, bidang, kuota` |
+| `data/lecturers.csv` | 24 dosen pembimbing | `id, nama, bidang, kuota, pakar, rumpun_kbi` |
 | `data/publications.csv` | 328 judul publikasi dosen | `lecturer_id, judul, tahun` |
 | `data/theses.csv` | 592 baris skripsi-pembimbing (310 skripsi) | `thesis_id, judul, lecturer_id, tahun` |
 
@@ -62,8 +72,8 @@ Pengambilan data dari repositori memakai jeda antar-permintaan dan mengikuti rob
 Periksa data dengan `python data_collection/check_data.py`.
 
 **Catatan penting data:**
-- Nilai **kuota** bimbingan (20 per dosen) adalah **asumsi** kelompok, bukan data resmi, sehingga skor beban bersifat ilustratif.
-- Hanya dosen yang punya publikasi yang dipakai. Beberapa dosen publikasinya sedikit (mis. Vannisa Irma Dewi dan Via Tuhamah Fauziastuti masing-masing satu judul), sehingga profilnya lemah.
+- **Kuota**, **bidang keahlian** (`pakar`), dan **rumpun KBI** berasal dari berkas `dosen.csv` (`data_collection/out/dosen.csv`), diubah menjadi `lecturers_info.csv` dan digabung oleh `build_dataset.py`. Kuota semua dosen di berkas itu bernilai 20.
+- Semua 24 dosen punya publikasi (Rauhil Fahmi belum punya skripsi, bebannya 0). Beberapa dosen publikasinya sedikit (mis. Vannisa Irma Dewi dan Via Tuhamah Fauziastuti masing-masing satu judul), sehingga profilnya lemah.
 - Sebagian judul publikasi berbahasa Inggris sedangkan query berbahasa Indonesia; kata yang sama tidak otomatis cocok.
 
 ## Evaluasi
@@ -80,11 +90,22 @@ Query: **30 judul** yang disusun dan dinilai secara manual (`eval/query_uji_manu
 
 Profil gabungan dengan BM25 paling baik. Hasil lengkap: `eval/hasil_evaluasi.csv`; query yang gagal: `eval/query_gagal.json`.
 
+**Fitur pencarian kata kunci (ablasi, BM25, 30 query yang sama):**
+
+| Konfigurasi | Success@1 | Success@3 | MRR |
+|---|---|---|---|
+| gabungan (acuan) | 0.333 | 0.467 | 0.481 |
+| gabungan + sinonim | 0.333 | 0.567 | 0.499 |
+| gabungan + keahlian | 0.333 | 0.500 | 0.487 |
+| gabungan + keahlian + sinonim | 0.267 | 0.633 | 0.465 |
+
+Kedua fitur menaikkan Success@3 tanpa merusak hasil, tetapi satu query setara 3,3 poin dan query uji berupa judul lengkap, bukan kata kunci pendek, jadi tabel ini terutama bukti bahwa fitur baru tidak merugikan. Hasil lengkap: `python -m src.evaluate --ablasi` -> `eval/hasil_ablasi.csv`.
+
 ## Keterbatasan
 - Dataset kecil (24 dosen); hasil evaluasi belum mewakili seluruh dosen.
 - Dosen dengan profil besar cenderung mendominasi karena cocok pada kata umum.
-- Tidak ada penanganan sinonim atau terjemahan Indonesia-Inggris.
-- Kuota bimbingan adalah asumsi.
+- Kamus sinonim Indonesia-Inggris (`src/expand.py`) kecil dan ditulis tangan; istilah di luar kamus tidak diperluas.
+- Kuota bimbingan sama (20) untuk semua dosen sesuai `dosen.csv`; beban dihitung dari skripsi yang ada di repositori, bukan jumlah bimbingan aktif.
 - Kata kunci pada penjelasan rekomendasi selalu dihitung dari kontribusi BM25, walaupun pengguna memilih TF-IDF, sehingga bisa sedikit berbeda dari alasan ranking TF-IDF.
 - Dosen dengan profil sangat kecil (mis. satu publikasi) bisa naik ke peringkat atas bila kata query kebetulan cocok.
 
